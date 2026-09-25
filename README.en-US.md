@@ -1,4 +1,4 @@
-Draft Edition — Original Work in Chinese , 740,000 Chinese characters.
+Original Work in Chinese, 740,000 Chinese characters.
 
 We sincerely invite people from all over the world who have deep concern for the peace and destiny of humanity to join us in contributing to the creation of this blueprint for the future of human civilization. Together, we will refine the content of this book and assist in its translation into other languages.
 If you have any questions or suggestions for discussion, please contact us.  
