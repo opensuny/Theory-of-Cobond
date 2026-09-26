@@ -20,6 +20,8 @@
 
 **[前言和术语表](README.zh-CN.md)**
 
+**[中文版完整原稿](dist/cn.pdf)**
+
 # The Theory of Cobond
 
 ## a New Form for Human Civilization
@@ -46,4 +48,6 @@ We sincerely invite people from all over the world who have deep concern for the
 If you have any questions or suggestions for discussion, please contact us.  
 Email: opensuny@yeah.net
 
-**[Preface & Glossary](README.en-US.md)**
+**[Preface & Glossary, Markdown Document](README.en-US.md)**
+
+**[Preface & Glossary, PDF Document](dist/en.pdf)**
