@@ -48,54 +48,6 @@ This book goes beyond theory; it outlines actionable blueprints for resolving co
 
 These case studies cover conflict scenarios of varying types and complexities, demonstrating the adaptability and feasibility of the Cobond framework.
 
-## The Value and Purpose of This Book
-
-① Original Theoretical Framework: This book introduces a wealth of groundbreaking core concepts and constructs a unified theoretical framework spanning from microscopic life and mesoscopic society to macroscopic civilization and even the interstellar scale. Rooted in original intellectual breakthroughs regarding the essence of human existence, this framework provides a entirely new paradigm for the study of human civilization.
-
-It proposes a new form of international relations: *Cobond*—a community of security and shared destiny formed by independent entities through the sharing of core functions. 
-
-Establishing a New Disciplinary Paradigm: Human Civilization Engineering, which introduces engineering thinking into the design of civilizational forms. This paradigm views human civilization as a system that can be analyzed, designed, constructed, and optimized, and employs engineering methods to design a blueprint for a “Peace Architecture”. This book is the first to systematically propose the “sovereign independence + military interlocking” Architecture as the ultimate solution for eliminating war and conflict among humankind.
-
-A brand-new analysis of the nature of the state: the optimized form—a tool serving the people, embodying civilization's clothing, housing, and transportation; the alienated form—a tool for ruling the people, embodying civilization's prison uniforms, cells, and prison vans.
-
-② A Revolution in Thought Paradigms: This book proposes not only a breakthrough in the architecture of peace but also a profound revolution in thought paradigms. Grounded in three fundamental axioms, it marks a quantum leap in the history of thought.
-
-From Explaining the World to Designing the World: It not only answers the question “Why is the world this way?” but also addresses “How should the world be designed?” It transforms thinkers into engineers, turns theory into blueprints, and shifts the lament over reality into the construction of the future.
-
-From Zero-Sum Thinking to Symbiotic Thinking: The core assumption of the old paradigm is that resources are finite, interests conflict, and one party's gain is inevitably another's loss. The three axioms (especially the “Form Serves the People” axiom) demonstrate that when form serves the people, zero-sum games can be deconstructed into symbiotic, win-win scenarios, liberating humanity from the mental prison of the Prisoner's Dilemma.
-
-Deconstructing the Sacralization of Forms into Their Instrumental Nature: The most stubborn cognitive inertia in the history of human thought is the tendency to sacralize, solidify, and treat certain forms—whether institutions, technologies, or ideologies—as ends in themselves. 
-
-It proclaims: All forms are tools, and their sole purpose is to serve humanity. Whether it be a form of government, a form of civilization, or a form of technology, when it no longer serves humanity, the people have the right to change it. This proclamation thoroughly deconstructs all dogmatism, all worship of forms, and all closed, rigid patterns of thought. It teaches people how to question the various forms of reality and design new forms of civilization that better serve humanity.
-
-As a tool for a revolution in ideological paradigms: a sharp instrument—a blade capable of cutting through the hard shells of all ideologies, the armor of dogmatism, and the closed, rigid patterns of thought. It ignites not merely a single lamp, but a veritable furnace—one that melts away all dogmatic and rigid ideological forms to forge new ones that serve humanity.
-
-Charting a Blueprint for the Concept of a Community with a Shared Future for Mankind: Through the architectural design of “military interlocking and social integration,” it provides a universal and actionable engineering blueprint for the concept of “lasting peace and common prosperity” within the Community with a Shared Future for Mankind.
-
-③ An operating system for the design and optimization of civilizational forms: It is not merely a completed edifice of thought, but rather a brand-new, universal, scalable, and foundational operating system capable of constructing countless such edifices of thought and civilizational forms. The kernel layer (the Three Major Axioms) forms the underlying logical foundation, while the service layer (the Four Pillars) constitutes a standard library for addressing core civilizational issues. When civilizational architecture engineers encounter a new field or scenario, they do not need to build the underlying framework from scratch—they simply call upon the kernel and service layers and adapt them to the specific context. This transforms “designing civilizational forms” from the era of bare-metal programming into the development of application-layer programs that are learnable, replicable, and iterable.
-
-④ A Revolution in the Paradigm of Peace: For hundreds of years, Kant's *Perpetual Peace* has relied primarily on moral appeals and institutional reforms, yet it failed to prevent the two world wars, the Cold War standoff, and the unending regional conflicts. *The Theory of Cobond* represents a landmark breakthrough in the philosophy of human peace; it optimizes and reconstructs the nature of states and their relationships, employing an engineering-based approach to design a structure of military interlocking, thereby realizing a blueprint for a distributed, world-government-free project of perpetual peace.
-
-From Concept to Blueprint: This is not a mere patchwork revision of Kant's proposal, but a paradigm-shifting reconstruction of the philosophy of peace—moving from moral appeals to engineering construction, from institutional reform to architectural design, and from inter-state treaties to a structure of shared destiny. This is precisely why *The Theory of Cobond* occupies an irreplaceable position in the history of human peace thought: for the first time, it transforms peace from an ideal into a blueprint, and from a wish into an engineering project.
-
-From Institutional Reform to Architectural Design: Kant placed his hopes on the republican transformation of domestic institutions within each nation; *The Theory of Cobond*, however, directly reconstructs the most central form of “military sovereignty” in international relations, proposing a “Cobond” architecture based on “sovereign independence + shared governance.”
-
-From Moral Self-Discipline to Structural Interlocking: Kant’s proposal ultimately relied on human reason and goodwill; whereas *The Theory of Cobond* employs a physical structural design—military interlocking—to render war impossible in an engineering sense.
-
-From loose alliances to deep symbiosis: The alliance of free states envisioned by Kant remained, in essence, a loose international covenant; the Cobond architecture, however, weaves participating states into a community of security and shared destiny through military interlocking and social integration.
-
-A distributed, world-government-free engineering innovation: It resolves a core paradox in the history of human peace thought: How can lasting peace be achieved without a world government? Traditional solutions either lead to a world government (such as world federalism) or revert to the balance of power (such as realist balance-of-power theory). 
-
-The former is unfeasible because it deprives nations of sovereignty, while the latter is unreliable due to a lack of stability. The innovation of the “Cobond” architecture lies in the fact that, while respecting sovereignty, independence, and freedom, it reconfigures the manner in which sovereign states connect with one another, thereby realizing a distributed architecture of peace.
-
-⑤ Civilizational Leadership: Anticipating the new forms of civilization in the interstellar era, this work extends our vision to the cosmic scale, elevates the logic of symbiosis in Earth's civilization to the laws governing the survival of interstellar civilization, and proposes the criteria for humanity's entry into the interstellar era. Combining a sense of the future with foresight, it serves as a blueprint for a new form of human civilization—one grounded in the present yet guiding the next century and beyond.
-
-➅ Relevance to Reality: Addressing humanity's most pressing existential challenges, this work draws on real-world tragedies such as the Russia-Ukraine conflict to directly confront core dilemmas including self-destructive wars, hegemonic confrontations, and the perversion of power. Rather than making hollow moral appeals, it proposes structured solutions from the perspective of “Human Civilization Engineering”, offering a practical blueprint for resolving inter-state conflicts, overcoming the traps of hegemony, prevent the perversion of power, and address global crises, serving as an intellectual weapon to confront the pressing challenges facing humanity today.
-
-➆ Universality of Values: A human consensus that transcends ideology, rejects narrow perspectives such as class antagonism and civilizational conflict, and takes the survival and prosperity of all humanity as its ultimate goal. It advocates for the diversity of civilizations, sovereign independence, and mutual prosperity; it both draws on the essence of people-centered philosophies from both the East and the West and transcends regional and institutional differences, thereby establishing a shared set of values that all of humanity can embrace. It serves as the theoretical foundation for advancing the concept of a community with a shared future for mankind.
-
-➇ Practical Applicability: Serving as a universal guide ranging from national governance to personal life, this theory is not confined to macro-level civilization but extends to micro-level contexts such as family, relationships, business, and education. It transforms the “Theory of Form-Based Service” into a practical thinking tool accessible to ordinary people, seamlessly bridging “grand theory” with “everyday life” , Suitable for both academic research and public understanding, it combines intellectual depth with practical utility.
-
 ## The Ship of Human Civilization's Destiny
 
 The anchor chain is the foundation of our safety; it withstands storms, stabilizes the ship, and secures our stability.
