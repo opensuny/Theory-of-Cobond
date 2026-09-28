@@ -2,8 +2,6 @@
 
 ### 俄乌百年和平架构设计
 
-
-
 #### 人类文明工程学奠基之作
 
 ### 人类持久和平新架构
@@ -12,11 +10,9 @@
 
 张旭 著
 
-
-
 预印本，74万字。
 
-我们诚挚邀请全世界对人类和平与命运怀有深切关切的人，共同参与蓝图的构绘，一起完善本书的内容，并协助将其翻译成其他语言。如有任何疑问或建议讨论，请联系我们 opensuny@yeah.net
+*我们诚挚邀请全世界对人类和平与命运怀有深切关切的人，共同参与蓝图的构绘，一起完善本书的内容，并协助将其翻译成其他语言。如有任何疑问或建议讨论，请联系我们 opensuny@yeah.net*
 
 **残酷的现实**
 2026年，俄乌战争已进入第五年，暴露出威斯特伐利亚主权国家体系在面对零和安全困境时的结构性局限。人们都在谈论局势、胜负、停火、制裁，但一个根本性问题依然存在，现有的和平方案——某方胜利、冻结战线、维持中立、第三方安全保障，并未解决冲突的根本矛盾，都只是下一场更激烈的冲突的前奏——无解的僵局——除非我们重新思考安全架构本身。所有的和平计划都存在结构性缺陷，它们只是重新分配了零和蛋糕的碎片，而没有真正重构零和结构本身。
@@ -35,11 +31,7 @@
 
 ## a New Form for Human Civilization
 
-
-
 ### Ending the Russia-Ukraine War:  A Century-Long Peace Architecture  for Europe Based on Human Civilization Engineering
-
-
 
 ### The Foundational Work of Human Civilization Engineering.
 
@@ -53,11 +45,12 @@ By Zhang Xu
 
 Original Work in Chinese, 740,000 Chinese characters.
 
-We sincerely invite people from all over the world who have deep concern for the peace and destiny of humanity to join us in contributing to the creation of this blueprint for the future of human civilization. Together, we will refine the content of this book and assist in its translation into other languages.
+*We sincerely invite people from all over the world who have deep concern for the peace and destiny of humanity to join us in contributing to the creation of this blueprint for the future of human civilization. Together, we will refine the content of this book and assist in its translation into other languages.
 If you have any questions or suggestions for discussion, please contact us.  
-Email: opensuny@yeah.net
+Email: opensuny@yeah.net*
 
 ## The Cruel Reality
+
 In 2026, the Russia-Ukraine War had entered its fifth year, revealing the structural limitations of the Westphalian system of sovereign states when facing a zero-sum security dilemma. People were discussing the situation, the outcome, the ceasefire, and sanctions, but a fundamental problem still remained. The existing peace plan - one side winning, freezing the front line, maintaining neutrality, and third-party security guarantees - did not address the fundamental contradiction of the conflict and merely served as the prelude to a more intense conflict - an unsolvable deadlock - unless we re-think the security architecture itself. All peace plans have structural flaws; they merely redistributed the fragments of the zero-sum cake without truly reconstructing the zero-sum structure itself.
 
 Meanwhile, almost all countries around the world are accelerating their military construction. This phenomenon, on the surface, enhances their own security while causing most countries to fall into deeper anxiety. The enhancement of a country's military power may trigger the security anxiety of neighboring countries, thereby triggering a new round of arms race - this is also the direct manifestation of the current international security architecture on the verge of collapse.
