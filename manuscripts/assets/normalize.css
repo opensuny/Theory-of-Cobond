@@ -1,0 +1,87 @@
+
+
+@font-face {
+    font-family: 'SongTi';
+    src: url('fonts/SourceHanSerifSC-Regular.otf') format('opentype');
+    font-display:block;
+}
+
+@font-face {
+    font-family: 'HeiTi';
+    src: url('fonts/SourceHanSansCN-Regular.otf') format('opentype');
+    font-display:block;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'SongTi';
+	padding: 1rem;
+}
+
+.captain {
+font-family: "Source Han Sans CN","思源黑体";
+font-size: 1rem;
+line-height:200%;
+white-space: pre-wrap;
+margin-bottom:1rem;
+}
+
+div.story {
+font-size: 1.25rem;
+line-height:180%;
+font-family: "霞鹜文楷等宽 GB";
+white-space: pre-wrap;
+margin-bottom:1rem;
+}
+
+.note {
+font-size: 1rem;
+font-family: "霞鹜文楷等宽 GB";
+white-space: pre-wrap;
+margin-bottom: 1rem;
+line-height:200%;
+}
+
+table{
+	font-size:0.8rem;
+}
+
+p{
+	white-space: pre-wrap;
+	line-height:200%;
+	margin-bottom:0.6rem;
+}
+
+.glossary li{
+	line-height:2rem;
+}
+
+h1, h2{
+	font-family: 'HeiTi';
+}
+
+@media screen {
+
+}
+
+@media print {
+.page-break {
+    page-break-after: always;
+    break-after: page;
+    height:0; 
+    overflow:hidden; 
+    margin:0; 
+    padding:0; 
+    border:0;
+  }
+  
+  body{
+	padding: 1rem;
+  }
+}
