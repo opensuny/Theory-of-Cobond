@@ -57,7 +57,7 @@ class Converter  {
              
         $content = str_replace('{content}', $output, file_get_contents($this->docdir.'/page.html')); 
         
-        echo "{$this->output_idr}/{$this->filename}.tmp.html generated \r\n";
+        echo "{$this->output_dir}/{$this->filename}.tmp.html generated \r\n";
         file_put_contents("{$this->output_dir}/{$this->filename}.tmp.html", $content);
         
         $url = $this->base_url .'/'."{$this->filename}.tmp.html";
@@ -76,10 +76,10 @@ class Converter  {
             echo "$url:  printing to {$this->output_dir}/{$this->filename} \r\n";
             echo $output = shell_exec($command);
             
-            $merged = "{$this->output_idr}/{$this->filename}.merged";
+            $merged = "{$this->output_dir}/{$this->filename}.merged.pdf";
             
             if(is_file("{$this->docdir}/cover.pdf")) {
-                $command = 'cpdf -merge ' . escapeshellarg("{$this->docdir}/cover.pdf") . ' ' 
+                $command = 'cpdf -scale-to-fit "210mm 297mm" -merge ' . escapeshellarg("{$this->docdir}/cover.pdf") . ' ' 
                 . escapeshellarg($pdf) 
                 . ' -o ' . escapeshellarg($merged);
                 echo exec($command, $outputLines, $returnCode);
