@@ -9,6 +9,8 @@ single.html:   单个网页，带左侧导航栏（开发中）。
 
 pdf的生成是通过预先将markdown解析为html, 再调用chrome浏览器输出为PDF格式，故可以通过CSS样式调整最终输出样式。
 
+公式书写：内置MathJax支持，请参考 https://www.mathjax.org/
+
 # 目录说明
 manuscripts中子目录为语言名称，例如zh-CN, en-US，包含以下文件：
 
