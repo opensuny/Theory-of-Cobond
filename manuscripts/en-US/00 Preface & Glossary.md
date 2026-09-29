@@ -4,8 +4,7 @@ For questions or suggestions, please contact:*
 
 *Zhang Xu(China): opensuny@yeah.net*
 *Victor de Oliveira Liberale(Brazil): victor.liberale@unifesp.br*
-
-
+*Collaborative writing: https://github.com/opensuny/Theory-of-Cobond*
 
 
 # Preface

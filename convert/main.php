@@ -28,7 +28,7 @@ if($_SERVER['argc'] < 5) {
     exit('usage: php '. $_SERVER['argv'][0] . ' <lang> <format> <url> <chrome>' );
 }
 
-@list($null, $lang, $format, $url, $chrome, $paper) = $_SERVER['argv'];
+@list($null, $lang, $format, $url, $chrome, $pageNumBegin, $paper) = $_SERVER['argv'];
 
 $docDir = realpath(__DIR__.'/../manuscripts/'.$lang);
 if(empty($lang) || !$docDir || !is_dir($docDir)) {
@@ -53,6 +53,7 @@ $config = [
     'format' => $format,
     'url' => $url.'/'.$lang,
     'chrome' => $chrome,
+    'pageNumBegin' => intval($pageNumBegin),
     'paper' => $paper,
     'doc_dir' => realpath(__DIR__.'/../manuscripts/'.$lang),
     'out_dir' => realpath(__DIR__). '/'.$lang,    

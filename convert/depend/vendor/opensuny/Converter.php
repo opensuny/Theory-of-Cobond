@@ -16,6 +16,8 @@ class Converter  {
     private $out_dir;
     private $doc_dir;
     
+    private $pageNumBegin;
+    
     private $tag;
     
     public function __construct(array $config) {
@@ -36,6 +38,8 @@ class Converter  {
         if(in_array($this->format, ['single.html', 'website.html'])) {
             return $this->html( $this->format === 'single.html');
         }
+        
+        $this->pageNumBegin = max($this->pageNumBegin, 2);
         
         $htmlFile = $this->html( true );
         $printFile = $this->out_dir.'/book.print.pdf';
@@ -101,7 +105,7 @@ class Converter  {
         $pdf->SetAutoPageBreak(false, 0);
         
         $pageCount = $pdf->setSourceFile($srcFile);
-        $bodyStartPage = 7; // 页码开始位置
+        $bodyStartPage = $this->pageNumBegin ; // 页码开始位置
         
         for ($i = 1; $i <= $pageCount; $i++) {
             $tpl = $pdf->importPage($i);
@@ -163,8 +167,8 @@ class Converter  {
             $output .= $content;
         }
         
-        //$output = str_replace(["\r\n", "\r"], "\n", $output);
-        //$output = str_replace("\n", "\r\n", $output);
+        $output = str_replace(["\r\n", "\r"], "\n", $output);
+        $output = str_replace("\n", "\r\n", $output);
         
         $content = str_replace('{content}', $output, file_get_contents($this->doc_dir.'/page.html'));
         $file = "{$this->out_dir}/book.html";
