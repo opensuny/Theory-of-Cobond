@@ -29,7 +29,7 @@ style.css:  当前语言版本的自定义CSS样式。
 假设书稿的本机HTTP访问地址为：http://localhost/Theory-of-Cobond.
 1. 启动windows cmd命令提示符, 并进入convert目录。
 2. 输入: php main.php zh-CN screen.pdf http://localhost/Theory-of-Cobond/convert "C:\Program Files\Google\Chrome\Application\chrome.exe"。
- 即可生成zh-CN/book.pdf，即为最终文档。zh-CN/assets为同步导出的样式文件目录（重复导出时，不会被覆盖）。
+ 即可生成zh-CN/book.pdf，即为最终文档。zh-CN/assets为同步导出的样式文件目录（重复导出时，不会被覆盖），book.html在每次导出时会被覆盖。
  可以通过在浏览器中访问http://localhost/Theory-of-Cobond/convert/zh-CN/book.html，调整预览样式。
 3. 上述命令参数有4个：
 	语言名称：即manuscripts目录中定义的语言目录。
