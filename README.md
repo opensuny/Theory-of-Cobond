@@ -8,7 +8,7 @@
 
 ### 人类命运共同体工程蓝图
 
-张旭 著
+张旭(中国) 维克多·德奥利维拉·利贝拉莱(巴西） 合 著
 
 预印本，74万字。
 
@@ -39,8 +39,7 @@
 
 ### An Engineering Blueprint for the Community of Shared Future for Mankind.
 
-By Zhang Xu
-
+By Zhang Xu (China), Victor de Oliveira Liberale (Brazil)
 
 
 Original Work in Chinese, 740,000 Chinese characters.
