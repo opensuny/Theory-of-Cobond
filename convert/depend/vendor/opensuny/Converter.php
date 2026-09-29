@@ -28,8 +28,8 @@ class Converter  {
     
     public function run(){
         is_dir($this->out_dir) or mkdir($this->out_dir);
-        $this->recursiveCopy(dirname($this->out_dir).'/assets', $this->out_dir . '/assets', true);
-        if(is_file($this->doc_dir.'/style.css')) {
+        $this->recursiveCopy(dirname($this->out_dir).'/assets', $this->out_dir . '/assets');
+        if(is_file($this->doc_dir.'/style.css') && !is_file($this->out_dir . '/assets/style.css') ) {
             copy($this->doc_dir.'/style.css', $this->out_dir . '/assets/style.css');
         }
         

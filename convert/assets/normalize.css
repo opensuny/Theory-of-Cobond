@@ -30,14 +30,14 @@ html, body {
 
 .captain {
 font-family: "SourceHanSansCN";
-font-size: 0.85rem;
+font-size: 1rem;
 line-height:180%;
 white-space: pre-wrap;
 margin-bottom:1rem;
 }
 
 div.story {
-font-size: 0.85rem;
+font-size: 1rem;
 line-height:180%;
 font-family: "Note";
 white-space: pre-wrap;
@@ -45,7 +45,7 @@ margin-bottom:1rem;
 }
 
 .note {
-font-size: 0.85rem;
+font-size: 1rem;
 font-family: "Note";
 white-space: pre-wrap;
 margin-bottom: 1rem;
