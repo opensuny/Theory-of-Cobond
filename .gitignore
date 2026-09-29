@@ -5,8 +5,11 @@ dist
 build
 _build
 
-convert/zh-CN
-convert/en-US
+convert/*
+!build/assets
+!build/depend
+!build/docs
+!build/main
 
 
 

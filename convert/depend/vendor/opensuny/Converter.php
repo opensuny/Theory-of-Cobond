@@ -6,7 +6,6 @@ use League\CommonMark\CommonMarkConverter;
 use League\CommonMark\Extension\Table\TableExtension;
 use setasign\Fpdi\Tcpdf\Fpdi;
 
-
 class Converter  {
         
     private $lang;
@@ -29,7 +28,10 @@ class Converter  {
     
     public function run(){
         is_dir($this->out_dir) or mkdir($this->out_dir);
-        $this->recursiveCopy(dirname($this->out_dir).'/assets', $this->out_dir . '/assets');
+        $this->recursiveCopy(dirname($this->out_dir).'/assets', $this->out_dir . '/assets', true);
+        if(is_file($this->doc_dir.'/style.css')) {
+            copy($this->doc_dir.'/style.css', $this->out_dir . '/assets/style.css');
+        }
         
         if(in_array($this->format, ['single.html', 'website.html'])) {
             return $this->html( $this->format === 'single.html');
@@ -161,8 +163,8 @@ class Converter  {
             $output .= $content;
         }
         
-        $output = str_replace(["\r\n", "\r"], "\n", $output);
-        $output = str_replace("\n", "\r\n", $output);
+        //$output = str_replace(["\r\n", "\r"], "\n", $output);
+        //$output = str_replace("\n", "\r\n", $output);
         
         $content = str_replace('{content}', $output, file_get_contents($this->doc_dir.'/page.html'));
         $file = "{$this->out_dir}/book.html";
@@ -223,7 +225,7 @@ class Converter  {
         return $catalog;
     }
     
-    public function recursiveCopy($source, $dest) {
+    public function recursiveCopy($source, $dest, $overWrite=false) {
         if (!is_dir($source)) {
             return false;
         }
@@ -243,8 +245,9 @@ class Converter  {
             
             if (is_dir($srcPath)) {
                 $this->recursiveCopy($srcPath, $dstPath);
-            } else if(!is_file($dstPath)) {
-                copy($srcPath, $dstPath);
+            } else {
+                if($overWrite && is_file($dstPath)) unlink($dstPath);                 
+                if(!is_file($dstPath)) copy($srcPath, $dstPath);
             }
         }
         

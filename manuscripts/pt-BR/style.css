@@ -1,0 +1,52 @@
+
+.cover{
+	background-color:#1f4e79;
+	text-align:center;
+	color:#fff;
+}
+
+.cover h1 {
+  font-size: 3rem;
+  padding-top:5rem;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  color: #F7ba00;
+    
+  text-shadow:
+    -1px -1px 0 #F7ba00,
+    1px 1px 0 #B8860B,
+    2px 2px 0 #A0762C,
+    3px 3px 0 #8B6508,
+    4px 4px 6px rgba(0,0,0,0.4),
+    0 0 15px rgba(255,215,0,0.6),
+    0 0 30px rgba(255,215,0,0.3);
+}
+
+.cover .subhead{
+	font-size: 1.8rem;
+	font-weight:bold;
+	margin-top:2rem;
+}
+
+
+.cover .case{
+	font-family: 'Source Han Sans CN';
+	font-size: 1.6rem;
+	font-weight:bold;
+	margin-bottom:2rem;
+}
+
+.cover .work{
+	font-style: italic;
+}
+
+.cover .work, .cover .author{	
+	font-size: 1.6rem;
+}
+
+.cover .author{
+	font-weight:normal;
+	font-size: 1.25rem;
+	padding-top:2rem;
+	padding-bottom:3rem;
+}
