@@ -1,0 +1,20 @@
+{
+    "name": "sune/convert",
+    "autoload": {
+        "psr-4": {
+            "opensuny\\": "vendor/opensuny/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZhangXu",
+            "email": "opensuny@yeah.net"
+        }
+    ],
+    "require": {
+        "league/commonmark": "^2.10",
+        "setasign/fpdi": "^2.6",
+        "tecnickcom/tcpdf": "^6.11",
+        "setasign/fpdf": "^1.9"
+    }
+}
