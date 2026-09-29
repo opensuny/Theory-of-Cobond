@@ -1,8 +1,7 @@
 # 编写协同说明
 
 为便于国际协作，本书稿使用markdown格式编写，并开发了最终格式导出工具。
-最终格式是指用于阅读或印刷的格式，支持格式如下：
-
+最终格式是指用于阅读或印刷的格式：
 screen.pdf: 用于屏幕阅读的PDF格式，紧凑对称页边距，带导航书签(已支持)。
 print.pdf:  用于印刷的PDF格式，非对称页边距，带目录页和导航书签（开发中）。
 website.html:  用于在线网站托管的网页文档，每篇一个html文档，带左侧目录列表页（开发中）。
@@ -15,7 +14,7 @@ manuscripts中子目录为语言名称，例如zh-CN, en-US，包含以下文件
 
 cover.html: 封面内容
 page.html:  生成html或pdf文件时使用的页面结构。
-style.css:  当前语言版本的自定义CSS样式。
+style.css:  自定义CSS样式。
 *.md:		正文内容，按数字前缀字典排序。
 
 # PDF导出指引
@@ -29,7 +28,7 @@ style.css:  当前语言版本的自定义CSS样式。
 假设书稿的本机HTTP访问地址为：http://localhost/Theory-of-Cobond.
 1. 启动windows cmd命令提示符, 并进入convert目录。
 2. 输入: php main.php zh-CN screen.pdf http://localhost/Theory-of-Cobond/convert "C:\Program Files\Google\Chrome\Application\chrome.exe"。
- 即可生成zh-CN/book.pdf，即为最终文档。zh-CN/assets为同步导出的样式文件目录（重复导出时，不会被覆盖），book.html在每次导出时会被覆盖。
+ 即可生成zh-CN/book.pdf。zh-CN/assets为同步导出的样式文件目录（重复导出时，不会被覆盖），book.html在每次导出时会被覆盖。
  可以通过在浏览器中访问http://localhost/Theory-of-Cobond/convert/zh-CN/book.html，调整预览样式。
 3. 上述命令参数有4个：
 	语言名称：即manuscripts目录中定义的语言目录。
