@@ -74,15 +74,17 @@ class Converter  {
             escapeshellarg($url);
         
             echo "$url:  printing to {$this->output_dir}/{$this->filename} \r\n";
-            echo $output = shell_exec($command);
+            //echo $output = shell_exec($command);
             
             $merged = "{$this->output_dir}/{$this->filename}.merged.pdf";
             
             if(is_file("{$this->docdir}/cover.pdf")) {
-                $command = 'cpdf -scale-to-fit "210mm 297mm" -merge ' . escapeshellarg("{$this->docdir}/cover.pdf") . ' ' 
+                $command = 'cpdf -merge ' . escapeshellarg("{$this->docdir}/cover.pdf") . ' ' 
                 . escapeshellarg($pdf) 
-                . ' -o ' . escapeshellarg($merged);
+                . '  AND -scale-to-fit "210mm 297mm" -o ' . escapeshellarg($pdf);
+                
                 echo exec($command, $outputLines, $returnCode);
+                
                 $pdf = $merged;
             }
             
