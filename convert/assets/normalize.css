@@ -26,14 +26,11 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-	padding: 1rem;
-}
 
 .captain {
 font-family: "SourceHanSansCN";
 font-size: 0.85rem;
-line-height:200%;
+line-height:180%;
 white-space: pre-wrap;
 margin-bottom:1rem;
 }
@@ -60,7 +57,7 @@ table{
 
 p{
 	white-space: pre-wrap;
-	line-height:200%;
+	line-height: 180%;
 	margin-bottom:0.6rem;
 }
 
@@ -72,8 +69,68 @@ h1, h2, h3{
 	font-family: 'Source Han Sans CN';
 }
 
-@media screen {
+.cover{
+	background-color:#1f4e79;	
+}
 
+.cover h1 {
+	text-align:center;
+  font-size: 6.5rem;
+  padding-top:5rem;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  color: #F7ba00;
+  
+  letter-spacing: 3.5rem;
+  padding-left: 4rem;
+  
+  text-shadow:
+    -1px -1px 0 #F7ba00,
+    1px 1px 0 #B8860B,
+    2px 2px 0 #A0762C,
+    3px 3px 0 #8B6508,
+    4px 4px 6px rgba(0,0,0,0.4),
+    0 0 15px rgba(255,215,0,0.6),
+    0 0 30px rgba(255,215,0,0.3);
+    /**text-shadow: 1px 1px 1px #f7ba00, -1px -1px 1px #fff;**/
+}
+
+.cover .subhead{
+	text-align:center;
+	color:#fff;
+	font-size: 3rem;
+	font-weight:bold;
+	letter-spacing: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+.cover .case{
+	font-family: 'Source Han Sans CN';
+	text-align:center;
+	color:#fff;
+	font-size: 3.6rem;
+	font-weight:bold;
+	margin-bottom:3rem;
+}
+
+.cover .work, .cover .author{
+	text-align:center;
+	color:#fff;
+	font-size: 2rem;
+	font-weight:bold;
+}
+
+.cover .author{
+font-weight:normal;
+font-size: 1.25rem;
+padding-top:3rem;
+padding-bottom:3rem;
+}
+
+@media screen {
+	.part{
+		padding:1rem;
+	}
 }
 
 @media print {
@@ -87,7 +144,33 @@ h1, h2, h3{
     border:0;
   }
   
-  body{
-	padding: 1rem;
+  @page:first{
+	padding:0;
+	margin:0;
+  }
+  
+  @page{
+	padding:2.5rem;
+	margin:0;
+	padding-bottom:3rem;
+  }  
+  
+  .cover h1{
+	padding-top: 8rem;
+  }
+  
+  .cover .case{
+	margin-top:4rem;
+	margin-bottom:6rem;
+  }
+  
+  .cover{
+	height:100vh;
+  }
+  
+  .cover .author{
+	margin-top:2rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
   }
 }
