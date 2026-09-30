@@ -24,9 +24,16 @@ require __DIR__.'/depend/vendor/autoload.php';
  * 例如：php main.php zh-CN screen.pdf http://localhost/Theory-of-Cobond/convert "C:\Program Files\Google\Chrome\Application\chrome.exe"
  */
 
-if($_SERVER['argc'] < 5) {
-    exit('usage: php '. $_SERVER['argv'][0] . ' <lang> <format> <url> <chrome>' );
+if($_SERVER['argc'] < 2) {
+    exit('usage: php '. $_SERVER['argv'][0] . ' config.cfg' );
 }
+
+
+(new Converter($_SERVER['argv'][1], __DIR__))->run();
+
+return ;
+
+
 
 @list($null, $lang, $format, $url, $chrome, $pageNumBegin, $paper) = $_SERVER['argv'];
 

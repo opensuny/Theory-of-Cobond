@@ -15,6 +15,7 @@ All existing peace plans share a fatal flaw: they redistribute slices of a zero-
 
 
 War has plagued humanity for thousands of years, and the current international security framework is on the verge of collapse, having failed to meet humanity's shared security needs. Can we design a new form of relationship from an engineering perspective that would make war impossible at its very root? This is the Cobond — defined as a community of security and shared destiny formed by independent sovereign entities through the sharing of core state functions — is a new form of interstate relationship and a new form for human civilization.
+
 The *Cobond* — defined as a community of security and shared destiny formed by independent sovereign entities through the sharing of core state functions — as a new form for interstate relations grounded in *Human Civilization Engineering*. Its core thesis is radical yet straightforward: war cannot be permanently ended by victory, sanctions, or ceasefire treaties, but only by re‑engineering the interstate security structure itself. At its heart lies the architecture of *sovereign independence + military interlocking*: states retain full sovereign legitimacy, while their core security functions are deeply intertwined to render mutual aggression structurally impossible.
 
 

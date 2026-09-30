@@ -27,14 +27,21 @@ style.css:  自定义CSS样式。
 	cpdf.exe: 已经内置，无须下载。
 
 操作流程：
-假设书稿的本机HTTP访问地址为：http://localhost/Theory-of-Cobond.
-1. 启动windows cmd命令提示符, 并进入convert目录。
-2. 输入: php main.php zh-CN screen.pdf http://localhost/Theory-of-Cobond/convert "C:\Program Files\Google\Chrome\Application\chrome.exe"。
- 即可生成zh-CN/book.pdf。zh-CN/assets为同步导出的样式文件目录（重复导出时，不会被覆盖），book.html在每次导出时会被覆盖。
+1. 假设书稿的项目根目录的HTTP访问地址为：http://localhost/Theory-of-Cobond.
+2. 参照convert/zh-CN_screen_pdf.cfg, 建立配置文件，假设文件名为 en_screen_pdf.cfg
+lang: 语言名称,即manuscripts目录中定义的语言目录。
+format: 输出格式：参见本文第一节 *编写协同说明* 。
+url: 访问地址：convert目录的HTTP形式访问地址。
+chrome: 指定chrome浏览器程序的全路径。
+page_num_offset: 页码的偏移量（默认是1，表示封面无页码）。
+paper_size: 输出PDF文件纸张规格（默认为A4）。
+catalog: 是否插入目录页（取值0或1，默认0表示不显示）。
+page_bleed: 装订线边距(单位为mm，仅格式为print.pdf时有效)
+
+	
+3. 启动windows cmd命令提示符, 并进入convert目录。
+4. 输入: php main.php zh-CN_screen_pdf.cfg
+ 即可生成zh-CN/book.pdf。zh-CN/assets为同步导出的样式文件目录（重复导出时，不会被覆盖），book.html在每次导出时会被覆盖更新。
  可以通过在浏览器中访问http://localhost/Theory-of-Cobond/convert/zh-CN/book.html，调整预览样式。
-3. 上述命令参数有4个：
-	语言名称：即manuscripts目录中定义的语言目录。
-	输出格式：参见本文第一节 *编写协同说明* 。
-	访问地址：convert目录的HTTP形式访问地址。
-	chrome: 指定chrome浏览器程序的全路径。
+	
 

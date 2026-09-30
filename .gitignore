@@ -10,6 +10,7 @@ convert/*
 !build/depend
 !build/docs
 !build/main
+!*.cfg
 
 
 

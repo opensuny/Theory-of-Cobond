@@ -11,26 +11,75 @@ class Converter  {
     private $lang;
     private $format;
     private $url;
-    private $cpdf;
     private $chrome;
+    private $page_num_offset;
+    private $paper_size = 'A4';    
+    private $catalog = 1;
+    
+    private $cpdf;
+    
+    private $root_dir;
     private $out_dir;
     private $doc_dir;
     
-    private $pageNumBegin;
+    public function __construct(string $config, $rootdir) {        
+        
+        $this->root_dir = $rootdir;
+        $this->parseConfig($config);
+    }
     
-    private $tag;
-    
-    public function __construct(array $config) {
-        foreach($config as $name => $value) {
-            $this->$name = $value;
+    protected function parseConfig($file) {
+        if(empty($file) || !is_file($file)) {
+            exit("$file is not exists.");
         }
         
-        $this->tag = uniqid(date('mdHis_'));
+        $this->cpdf = realpath($this->root_dir.'/depend/vendor/bin/cpdf.exe');
+        
+        foreach(file($file) as $line) {
+            $line = trim($line);
+            preg_match('/^(\w+):\s+(.+)/i', $line, $matches);            
+            
+            if(empty($matches)) continue;
+            
+            $this->{$matches[1]} = $matches[2];
+        }
+                
+        $this->doc_dir = realpath($this->root_dir.'/../manuscripts/'.$this->lang);
+        $this->out_dir = $this->root_dir. '/'.$this->lang;
+        
+        is_dir($this->out_dir) or mkdir($this->out_dir);
+        
+        if(!$this->doc_dir || !is_dir($this->doc_dir)) {
+            exit("$this->doc_dir is not exsits.");
+        }
+        
+        if(!in_array($this->format, ['screen.pdf', 'print.pdf', 'website.html', 'single.html'])) {
+            exit("format: screen.pdf  | print.pdf | website.html | single.html");
+        }
+        
+        $resp = file_get_contents($this->url.'/assets/normalize.css');
+        if(!$this->url || !$resp){
+            exit("{$this->url} is invalid.");
+        }
+        
+        $this->url .= '/' . $this->lang ;
+        
+        if(empty($this->chrome) || !is_executable($this->chrome)) {
+            exit("chrome {$this->chrome} is invalid.");
+        }
+        
+        if(empty($this->cpdf) || !is_executable($this->cpdf)) {
+            exit("{$this->cpdf} invalid.");
+        }
+    }
+    
+    public function __set($name, $value) {
+        exit("unkown item $name");
     }
     
     public function run(){
-        is_dir($this->out_dir) or mkdir($this->out_dir);
-        $this->recursiveCopy(dirname($this->out_dir).'/assets', $this->out_dir . '/assets');
+        
+        $this->recursiveCopy(dirname($this->out_dir).'/assets', $this->out_dir . '/assets', false);
         if(is_file($this->doc_dir.'/style.css') && !is_file($this->out_dir . '/assets/style.css') ) {
             copy($this->doc_dir.'/style.css', $this->out_dir . '/assets/style.css');
         }
@@ -39,9 +88,7 @@ class Converter  {
             return $this->html( $this->format === 'single.html');
         }
         
-        $this->pageNumBegin = max($this->pageNumBegin, 2);
-        
-        $htmlFile = $this->html( true );
+        $htmlFile = $this->mergeHtml( true );
         $printFile = $this->out_dir.'/book.print.pdf';
         
         $this->printPDF($this->url.'/'.basename($htmlFile), $printFile);
@@ -66,7 +113,9 @@ class Converter  {
     
     protected function saveBookmark($srcFile, $outFile) {
         $cmd = escapeshellarg($this->cpdf). " -list-bookmarks -utf8 " . escapeshellarg($srcFile) . " > ". escapeshellarg($outFile);
+        echo "\r\nOutput Bookmar $outFile \r\n";
         echo "$cmd \r\n";
+        
         echo shell_exec($cmd);
         
         $lines = file($outFile);
@@ -105,7 +154,7 @@ class Converter  {
         $pdf->SetAutoPageBreak(false, 0);
         
         $pageCount = $pdf->setSourceFile($srcFile);
-        $bodyStartPage = $this->pageNumBegin ; // 页码开始位置
+        $bodyStartPage = $this->page_num_offset + 1 ; // 页码偏移
         
         for ($i = 1; $i <= $pageCount; $i++) {
             $tpl = $pdf->importPage($i);
@@ -126,8 +175,9 @@ class Converter  {
         $pdf->Output($outFile, 'F');
     }
     
-    protected function html($single = false) {
+    protected function mergeHtml($single = false) {
         
+        echo "\r\nMerging documents: $this->doc_dir \r\n";
         $docs = glob($this->doc_dir.'/*.md');
         $converter = new CommonMarkConverter([]);
         $converter->getEnvironment()->addExtension(new TableExtension());
@@ -136,7 +186,8 @@ class Converter  {
         
         $output = str_replace('{content}', $output, file_get_contents($this->doc_dir.'/cover.html'));;
         
-        echo "$this->doc_dir/*.md  scanning ... \r\n";
+        $counter = 0;
+        
         foreach($docs as $i => $file) {
             //if($i > 2 ) continue;
             $content = file_get_contents($file);
@@ -164,6 +215,8 @@ class Converter  {
                 
             }
             
+            $counter ++ ;
+            
             $output .= $content;
         }
         
@@ -173,8 +226,8 @@ class Converter  {
         $content = str_replace('{content}', $output, file_get_contents($this->doc_dir.'/page.html'));
         $file = "{$this->out_dir}/book.html";
         
-        echo "$file created \r\n";
         file_put_contents($file, $content);
+        echo "Meged $file, $counter parts. \r\n";
         
         return $file;        
     }
@@ -190,8 +243,9 @@ class Converter  {
             '--print-to-pdf=' . escapeshellarg($outfile) . ' ' .
             escapeshellarg($url);
             
-            echo "$url: printing {$outfile} \r\n";
-            echo $output = shell_exec($command);
+            echo "\r\nPrinting {$url} => $outfile \r\n";
+            
+            echo shell_exec($command);
     }
     
     public function optimizeBookmarks($srcFile, $outFile) {
