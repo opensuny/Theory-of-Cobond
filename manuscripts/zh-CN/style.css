@@ -26,7 +26,7 @@
 }
 
 .cover .subhead{
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight:bold;
 	letter-spacing: 1.5rem;
 	padding-left: 1.5rem;
@@ -36,18 +36,31 @@
 	font-family: 'Source Han Sans CN';
 	font-size: 3.6rem;
 	font-weight:bold;
-	margin-bottom:3rem;
 }
 
 .cover .work{	
 	font-weight:bold;
-	margin-top: 1.5rem;	
-	font-size: 2.5rem; 
+	font-size: 2.5rem;
+	margin-top:3rem;
 }
 
-.cover .author{
-	font-weight:normal;
-	font-size: 1.25rem;
-	padding-top:1rem;
-	padding-bottom:2rem;
+@media print{
+.cover{
+	height:100vh;
+	position:relative;
+  }
+  
+  .cover h1{
+	padding-top: 8rem;
+  }
+  
+  .cover .case{
+	margin-top:4rem;
+  }
+  
+  .cover .author{
+	width:100%;
+	position:absolute;
+	bottom:3rem;
+  }
 }

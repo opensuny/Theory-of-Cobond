@@ -23,10 +23,8 @@ html, body {
   font-family: 'SourceHanSerifSC';
   margin: 0;
   padding: 0;
-  -webkit-text-size-adjust: 100%;
-  
+  -webkit-text-size-adjust: 100%;  
 }
-
 
 .captain {
 font-family: "SourceHanSansCN";
@@ -66,7 +64,6 @@ h1, h2, h3{
 	font-family: 'Source Han Sans CN';
 }
 
-
 .catalog .item {
   display: flex;
   width: 100%;
@@ -82,9 +79,8 @@ h1, h2, h3{
 }
 
 .catalog .line {
-  flex: 1;               /* 占据剩余所有宽度 */
-  /* 可选：如果中间内容超长，防止溢出 */
-  min-width: 0;          /* 允许 flex 子项收缩到小于内容宽度 */
+  flex: 1;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -100,11 +96,9 @@ h1, h2, h3{
 	padding-left: 2rem;
 }
 
-
-
 @media screen {
-	.part{
-		padding:1rem;
+	.cover .author {
+		padding-bottom:3rem;
 	}
 }
 
@@ -128,24 +122,5 @@ h1, h2, h3{
 	padding:2.5rem;
 	margin:0;
 	padding-bottom:3rem;
-  }  
-  
-  .cover h1{
-	padding-top: 8rem;
-  }
-  
-  .cover .case{
-	margin-top:4rem;
-	margin-bottom:6rem;
-  }
-  
-  .cover{
-	height:100vh;
-  }
-  
-  .cover .author{
-	margin-top:2rem;
-	padding-top:1rem;
-	padding-bottom:1rem;
   }
 }

@@ -128,7 +128,7 @@ class Converter  {
     
     protected function saveBookmark($srcFile, $outFile) {
         $cmd = escapeshellarg($this->cpdf). " -list-bookmarks -utf8 " . escapeshellarg($srcFile) . " > ". escapeshellarg($outFile);
-        echo "\r\nOutput Bookmar $outFile \r\n";
+        echo "\r\nOutput Bookmark $outFile \r\n";
         echo "$cmd \r\n";
         
         echo shell_exec($cmd);
@@ -207,14 +207,13 @@ class Converter  {
         $pages = 1;
         
         foreach($docs as $i => $file) {
-            //if($i > 6 ) continue;
+            //if($i > 1 ) continue;
             $content = file_get_contents($file);
             
             $content =  preg_replace('/^(\d+)\.\s/m', '$1.', $content);
             $content =  preg_replace('/^(<div class=")(note|story|captain)(">[\r\n]+)/m', '$1$2">', $content);
             
             $content = $converter->convert( $content );
-            //$content = preg_replace('/<\/strong>\R/', '</strong><br />', $content);
             
             $content =  preg_replace('/^<p>(\d+)\.(\S)/m', '<p>$1. $2', $content);
             $content =  preg_replace('/^(\d+)\.(\S)/m', '$1. $2', $content);
@@ -273,7 +272,7 @@ class Converter  {
             $list[] = [$res[1], $res[2], $res[3] - $this->page_num_offset ];
         }
         
-        ob_clean();
+        @ob_clean();
         ob_start();
         include $this->doc_dir.'/catalog.html';
         $c = ob_get_clean();
@@ -287,6 +286,7 @@ class Converter  {
     }
     
     public function printPDF($url, $outfile) {
+        $begin = microtime(true);
         $command = escapeshellarg($this->chrome) . ' ' .
             '--headless=new ' .
             '--no-pdf-header-footer ' .
@@ -300,6 +300,9 @@ class Converter  {
             echo "\r\nPrinting {$url} => $outfile \r\n";
             
             echo shell_exec($command);
+            $end = microtime(true);
+            
+            echo intval($end - $begin), " seconds. \r\n";
     }
     
     public function optimizeBookmarks($srcFile, $outFile) {
