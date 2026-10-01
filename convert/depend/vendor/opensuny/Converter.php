@@ -12,9 +12,17 @@ class Converter  {
     private $format;
     private $url;
     private $chrome;
-    private $page_num_offset;
+    private $page_num_offset = 1;
     private $paper_size = 'A4';    
     private $catalog = 1;
+    private $page_bleed = 0;
+    
+    private $preface_pages = 6;
+    private $catalog_pages = 7;
+    
+    private $odd_page_start = 1;
+    
+    private $seglen = 6;
     
     private $cpdf;
     
@@ -71,6 +79,10 @@ class Converter  {
         if(empty($this->cpdf) || !is_executable($this->cpdf)) {
             exit("{$this->cpdf} invalid.");
         }
+        
+        if($this->seglen < 3) {
+            exit("seglen must greater than 3. ");
+        }
     }
     
     public function __set($name, $value) {
@@ -102,6 +114,9 @@ class Converter  {
         $bookFile = $this->out_dir.'/book.pdf';
         
         $this->addBookmark($pagedFile, $bookmark, $bookFile);
+        
+        unlink($printFile);
+        unlink($pagedFile);
     }
     
     protected function addBookMark($srcFile, $catalog, $outFile) {
@@ -127,9 +142,9 @@ class Converter  {
             
             $t = $res[2];
             $len = strlen($t);
-            if($len <= 9 ) continue;
-            $a = substr($t, 0, 9);
-            $pos = strrpos($t, $a, 9);
+            if($len <= $this->seglen ) continue;
+            $a = substr($t, 0, $this->seglen);
+            $pos = strrpos($t, $a, $this->seglen);
             if($pos === false) continue;
             $n = substr($t, $pos);
             
@@ -188,8 +203,11 @@ class Converter  {
         
         $counter = 0;
         
+        //封面页
+        $pages = 1;
+        
         foreach($docs as $i => $file) {
-            //if($i > 2 ) continue;
+            //if($i > 6 ) continue;
             $content = file_get_contents($file);
             
             $content =  preg_replace('/^(\d+)\.\s/m', '$1.', $content);
@@ -215,6 +233,16 @@ class Converter  {
                 
             }
             
+            //如果前言是奇数页 强制插入空页
+            if($i === 0 && $this->odd_page_start && ($this->preface_pages % 2) ) {
+                $content = $content . '<p class="page-break"></p>';
+            }
+            
+            //目录页追加在第一篇之前
+            if($i === 1 && $this->catalog) {
+                $content = $this->addCatalog() . $content;
+            }
+            
             $counter ++ ;
             
             $output .= $content;
@@ -230,6 +258,32 @@ class Converter  {
         echo "Meged $file, $counter parts. \r\n";
         
         return $file;        
+    }
+    
+    protected function addCatalog() {
+        $file = $this->out_dir.'/bookmark.txt';
+        if(!is_file($file)) return ;
+        
+        $list  = [];
+        foreach (file($file) as $i => $line) {
+            if($i <=3 ) continue;
+            preg_match('#^(\d+)\s+"(.+?)"\s+(\d+)#', $line, $res);
+            if(empty($res[2])) continue ;
+            
+            $list[] = [$res[1], $res[2], $res[3] - $this->page_num_offset ];
+        }
+        
+        ob_clean();
+        ob_start();
+        include $this->doc_dir.'/catalog.html';
+        $c = ob_get_clean();
+        
+        //如果目录页是奇数  插入空页
+        if($this->odd_page_start && ($this->catalog_pages % 2) ) {
+            $content = $content . '<p class="page-break"></p>';
+        }
+        
+        return $c;
     }
     
     public function printPDF($url, $outfile) {
@@ -265,9 +319,9 @@ class Converter  {
             
             $t = $res[2];
             $len = strlen($t);
-            if($len <= 9 ) continue;
-            $a = substr($t, 0, 9);
-            $pos = strrpos($t, $a, 9);
+            if($len <= 6 ) continue;
+            $a = substr($t, 0, 6);
+            $pos = strrpos($t, $a, 6);
             if($pos === false) continue;
             $n = substr($t, $pos);
             

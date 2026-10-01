@@ -38,10 +38,12 @@ paper_size: 输出PDF文件纸张规格（默认为A4）。
 catalog: 是否插入目录页（取值0或1，默认0表示不显示）。
 page_bleed: 装订线边距(单位为mm，仅格式为print.pdf时有效)
 
-	
 3. 启动windows cmd命令提示符, 并进入convert目录。
 4. 输入: php main.php zh-CN_screen_pdf.cfg
  即可生成zh-CN/book.pdf。zh-CN/assets为同步导出的样式文件目录（重复导出时，不会被覆盖），book.html在每次导出时会被覆盖更新。
  可以通过在浏览器中访问http://localhost/Theory-of-Cobond/convert/zh-CN/book.html，调整预览样式。
-	
-
+ 
+如果需要目录页，需要多次导出实现，目前从PDF书签中生成目录页。
+A. 第一次：PDF、书签。
+B. 第二次：PDF、书签、目录内容（但此时页码不正确），再人工统计PDF中前言、术语表、目录页的总页数，修改配置文件preface_pages，catalog_pages。
+C. 第三次：导出最文件。

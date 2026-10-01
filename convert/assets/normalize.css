@@ -66,6 +66,42 @@ h1, h2, h3{
 	font-family: 'Source Han Sans CN';
 }
 
+
+.catalog .item {
+  display: flex;
+  width: 100%;
+}
+
+.catalog .text, .catalog .num {
+  white-space: nowrap;
+  padding-right: 0.5rem;
+}
+
+.catalog .num {
+	padding-left: 0.5rem;
+}
+
+.catalog .line {
+  flex: 1;               /* 占据剩余所有宽度 */
+  /* 可选：如果中间内容超长，防止溢出 */
+  min-width: 0;          /* 允许 flex 子项收缩到小于内容宽度 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 1px dashed #000;
+  margin-bottom: 0.5rem;
+}
+
+.catalog .level-1{
+	padding-left: 1rem;
+}
+
+.catalog .level-2{
+	padding-left: 2rem;
+}
+
+
+
 @media screen {
 	.part{
 		padding:1rem;
