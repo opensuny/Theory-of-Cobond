@@ -22,6 +22,14 @@ class Converter  {
     
     private $odd_page_start = 1;
     
+    private $page_break_global = 0;
+    
+    private $page_break_exclude = 0;
+    
+    private $page_break_include = 0;
+    
+    private $page_break_catalog = 0;
+    
     private $seglen = 6;
     
     private $cpdf;
@@ -83,6 +91,11 @@ class Converter  {
         if($this->seglen < 3) {
             exit("seglen must greater than 3. ");
         }
+        
+        $this->page_break_exclude = preg_split('/\D+/', $this->page_break_exclude);
+        
+        $this->page_break_include = preg_split('/\D+/', $this->page_break_include);
+        
     }
     
     public function __set($name, $value) {
@@ -97,7 +110,7 @@ class Converter  {
         }
         
         if(in_array($this->format, ['single.html', 'website.html'])) {
-            return $this->html( $this->format === 'single.html');
+            return $this->mergeHtml( $this->format === 'single.html');
         }
         
         $htmlFile = $this->mergeHtml( true );
@@ -197,18 +210,20 @@ class Converter  {
         $converter = new CommonMarkConverter([]);
         $converter->getEnvironment()->addExtension(new TableExtension());
         
-        $output = file_get_contents($this->doc_dir.'/page.html');
-        
-        $output = str_replace('{content}', $output, file_get_contents($this->doc_dir.'/cover.html'));;
+        $output = '';
         
         $counter = 0;
         
         //封面页
         $pages = 1;
         
+        $catatree = [];
+        
         foreach($docs as $i => $file) {
             //if($i > 1 ) continue;
             $content = file_get_contents($file);
+            
+            $title = '';
             
             $content =  preg_replace('/^(\d+)\.\s/m', '$1.', $content);
             $content =  preg_replace('/^(<div class=")(note|story|captain)(">[\r\n]+)/m', '$1$2">', $content);
@@ -218,31 +233,32 @@ class Converter  {
             $content =  preg_replace('/^<p>(\d+)\.(\S)/m', '<p>$1. $2', $content);
             $content =  preg_replace('/^(\d+)\.(\S)/m', '$1. $2', $content);
             
+            $content = str_replace(["\r\n", "\r"], "\n", $content);
+            $content = str_replace("\n", "\r\n", $content);
+            
             $content =  preg_replace('/<table>/m', '<table class="table table-bordered">', $content);
             
-            //if($single)
-            
-            $content = $content . '<p class="page-break"></p>';
-            
-            //if($i !== 0) {
-            $content = "<div class=\"part part-{$i}\">" .  $content . '</div>';
-            //}
-            
-            if(!$single) {
-                
-            }
-            
-            //如果前言是奇数页 强制插入空页
-            if($i === 0 && $this->odd_page_start && ($this->preface_pages % 2) ) {
+            //如果全局分页 且未在排除列表中
+            if($this->page_break_global && !in_array($i, $this->page_break_exclude) ) {
                 $content = $content . '<p class="page-break"></p>';
             }
             
-            //目录页追加在第一篇之前
-            if($i === 1 && $this->catalog) {
-                $content = $this->addCatalog() . $content;
+            //如果全局不分页，且在分页列表中
+            if(!$this->page_break_global && in_array($i, $this->page_break_include)) {
+                $content = $content . '<p class="page-break"></p>';
             }
             
-            $counter ++ ;
+            $content = "<div class=\"part part-{$i}\">" .  $content . '</div>';
+            
+            preg_match('|<h1.*?>(.+?)</h1>?|', $content, $matches);
+            if(!empty($matches[1])) {
+                $title = $matches[1];
+            }
+            
+            //目录页位于术语表之后
+            if($i === 2 && $this->catalog) {
+                $content = $content . $this->addCatalog();
+            }
             
             $output .= $content;
         }
@@ -275,12 +291,11 @@ class Converter  {
         @ob_clean();
         ob_start();
         include $this->doc_dir.'/catalog.html';
-        $c = ob_get_clean();
-        
-        //如果目录页是奇数  插入空页
-        if($this->odd_page_start && ($this->catalog_pages % 2) ) {
-            $content = $content . '<p class="page-break"></p>';
+        if($this->page_break_catalog ) {
+            echo '<p class="page-break"></p>';
         }
+        
+        $c = ob_get_clean();
         
         return $c;
     }
