@@ -24,4 +24,3 @@ Victor de Oliveira Liberale (Brazil)
 </p>
 
 </div>
-<div class="page-break"></div>

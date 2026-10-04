@@ -12,22 +12,16 @@
     font-display:block;
 }
 
-@font-face {
-    font-family: 'Note';
-    src: url('fonts/LXGWWenKaiMonoGB-Regular.ttf') format('truetype');
-    font-display:block;
-}
-
 
 html, body {
-  font-family: 'SourceHanSerifSC';
+  font-family: 'SourceHanSansCN';
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust: 100%;  
 }
 
 .captain {
-font-family: "SourceHanSansCN";
+font-family: "SourceHanSerifSC";
 font-size: 1rem;
 line-height:180%;
 white-space: pre-wrap;
@@ -37,14 +31,14 @@ margin-bottom:1rem;
 div.story {
 font-size: 1rem;
 line-height:180%;
-font-family: "Note";
+font-family: "SourceHanSerifSC";
 white-space: pre-wrap;
 margin-bottom:1rem;
 }
 
 .note {
 font-size: 1rem;
-font-family: "Note";
+font-family: "SourceHanSerifSC";
 white-space: pre-wrap;
 margin-bottom: 1rem;
 line-height:200%;
@@ -61,7 +55,7 @@ p{
 }
 
 h1, h2, h3{
-	font-family: 'Source Han Sans CN';
+	font-family: 'SourceHanSansCN';
 }
 
 .catalog .item {

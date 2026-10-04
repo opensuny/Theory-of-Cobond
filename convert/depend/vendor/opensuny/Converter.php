@@ -30,6 +30,8 @@ class Converter  {
     
     private $page_break_catalog = 0;
     
+    private $title = '';
+    
     private $seglen = 6;
     
     private $cpdf;
@@ -184,6 +186,8 @@ class Converter  {
         $pageCount = $pdf->setSourceFile($srcFile);
         $bodyStartPage = $this->page_num_offset + 1 ; // 页码偏移
         
+        $pdf->setTitle($this->title);
+        
         for ($i = 1; $i <= $pageCount; $i++) {
             $tpl = $pdf->importPage($i);
             $size = $pdf->getTemplateSize($tpl);
@@ -266,7 +270,7 @@ class Converter  {
         $output = str_replace(["\r\n", "\r"], "\n", $output);
         $output = str_replace("\n", "\r\n", $output);
         
-        $content = str_replace('{content}', $output, file_get_contents($this->doc_dir.'/page.html'));
+        $content = str_replace(['{title}', '{content}'], [$this->title, $output], file_get_contents($this->doc_dir.'/page.html'));
         $file = "{$this->out_dir}/book.html";
         
         file_put_contents($file, $content);
