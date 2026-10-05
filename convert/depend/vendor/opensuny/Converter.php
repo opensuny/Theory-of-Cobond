@@ -117,6 +117,7 @@ class Converter  {
         
         $htmlFile = $this->mergeHtml( true );
         $printFile = $this->out_dir.'/book.print.pdf';
+        return ;
         
         $this->printPDF($this->url.'/'.basename($htmlFile), $printFile);
         
@@ -224,7 +225,7 @@ class Converter  {
         $catatree = [];
         
         foreach($docs as $i => $file) {
-            //if($i > 1 ) continue;
+            //if($i > 2 ) continue;
             $content = file_get_contents($file);
             
             $title = '';
