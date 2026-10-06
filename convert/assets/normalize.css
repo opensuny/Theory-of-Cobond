@@ -12,43 +12,33 @@
     font-display:block;
 }
 
-@font-face {
-    font-family: 'Note';
-    src: url('fonts/LXGWWenKaiMonoGB-Regular.ttf') format('truetype');
-    font-display:block;
-}
-
 
 html, body {
-  font-family: 'SourceHanSerifSC';
+  font-family: 'SourceHanSansCN';
   margin: 0;
   padding: 0;
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-	padding: 1rem;
+  -webkit-text-size-adjust: 100%;  
 }
 
 .captain {
-font-family: "SourceHanSansCN";
-font-size: 0.85rem;
-line-height:200%;
+font-family: "SourceHanSerifSC";
+font-size: 1rem;
+line-height:180%;
 white-space: pre-wrap;
 margin-bottom:1rem;
 }
 
 div.story {
-font-size: 0.85rem;
+font-size: 1rem;
 line-height:180%;
-font-family: "Note";
+font-family: "SourceHanSerifSC";
 white-space: pre-wrap;
 margin-bottom:1rem;
 }
 
 .note {
-font-size: 0.85rem;
-font-family: "Note";
+font-size: 1rem;
+font-family: "SourceHanSerifSC";
 white-space: pre-wrap;
 margin-bottom: 1rem;
 line-height:200%;
@@ -60,20 +50,50 @@ table{
 
 p{
 	white-space: pre-wrap;
-	line-height:200%;
+	line-height: 180%;
 	margin-bottom:0.6rem;
 }
 
-.glossary li{
-	line-height:2rem;
+h1, h2, h3{
+	font-family: 'SourceHanSansCN';
 }
 
-h1, h2, h3{
-	font-family: 'Source Han Sans CN';
+.catalog .item {
+  display: flex;
+  width: 100%;
+}
+
+.catalog .text, .catalog .num {
+  white-space: nowrap;
+  padding-right: 0.5rem;
+}
+
+.catalog .num {
+	padding-left: 0.5rem;
+}
+
+.catalog .line {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 1px dashed #000;
+  margin-bottom: 0.5rem;
+}
+
+.catalog .level-1{
+	padding-left: 1rem;
+}
+
+.catalog .level-2{
+	padding-left: 2rem;
 }
 
 @media screen {
-
+	.cover .author {
+		padding-bottom:3rem;
+	}
 }
 
 @media print {
@@ -87,7 +107,14 @@ h1, h2, h3{
     border:0;
   }
   
-  body{
-	padding: 1rem;
+  @page:first{
+	padding:0;
+	margin:0;
+  }
+  
+  @page{
+	padding:2.5rem;
+	margin:0;
+	padding-bottom:3rem;
   }
 }

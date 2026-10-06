@@ -1,0 +1,66 @@
+
+.cover{
+	background-color:#1f4e79;
+	color:#fff;
+	text-align:center;
+}
+
+.cover h1 {
+  font-size: 6.5rem;
+  padding-top:5rem;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  color: #F7ba00;
+  
+  letter-spacing: 3.5rem;
+  padding-left: 4rem;
+  
+  text-shadow:
+    -1px -1px 0 #F7ba00,
+    1px 1px 0 #B8860B,
+    2px 2px 0 #A0762C,
+    3px 3px 0 #8B6508,
+    4px 4px 6px rgba(0,0,0,0.4),
+    0 0 15px rgba(255,215,0,0.6),
+    0 0 30px rgba(255,215,0,0.3);
+}
+
+.cover .subhead{
+	font-size: 3.5rem;
+	font-weight:bold;
+	letter-spacing: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+.cover .case{
+	font-family: 'Source Han Sans CN';
+	font-size: 3.6rem;
+	font-weight:bold;
+}
+
+.cover .work{	
+	font-weight:bold;
+	font-size: 2.5rem;
+	margin-top:3rem;
+}
+
+@media print{
+.cover{
+	height:100vh;
+	position:relative;
+  }
+  
+  .cover h1{
+	padding-top: 8rem;
+  }
+  
+  .cover .case{
+	margin-top:4rem;
+  }
+  
+  .cover .author{
+	width:100%;
+	position:absolute;
+	bottom:3rem;
+  }
+}

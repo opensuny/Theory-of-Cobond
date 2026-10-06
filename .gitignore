@@ -5,6 +5,12 @@ dist
 build
 _build
 
-env.php
+convert/*
+!build/assets
+!build/depend
+!build/docs
+!build/main
+!*.cfg
+
 
 
