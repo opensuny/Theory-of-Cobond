@@ -52,6 +52,8 @@
 
 25. Arms Black Hole: In geopolitical conflicts, when one side achieves military victory and ends the hot war, it fails to eliminate the root causes of confrontation. Instead, it forces the opposing side to continuously expand its military forces in a large scale for a long time. The victorious side, in order to maintain strategic security and not lose its geopolitical influence, is compelled to permanently and sustainably invest in extremely high levels of military equipment. It falls into a structural and continuous drain of national resources, trapped in a vicious cycle. Although it does not have a short-term impact on national security, it continuously consumes national resources, squeezes people's livelihoods, and locks the economic structure. This is "victory leading to chronic decline".
 
+26. Expected Profit and Loss Model: Expected profit and loss influence war decisions, This refers to the situation where the party initiating a war conducts a subjective assessment and judgment on the expected costs and benefits of the war before the war begins, and then makes the final decision. It is an important factor influencing the decision-making of active warfare.
+
 26. Parasitic Criticism：In the process of thinking, creating, or collaborating, individuals or groups habitually intervene with the aim of criticism and nitpicking rather than constructive engagement. This behavioral pattern involves a severe imbalance in terms of responsibility, risk, and reward, and essentially constitutes a one-sided drain on the mental energy of creators and the public discourse environment.
 
 27. Distributed Civilization Architecture:  The Next-Generation Architecture for Human Civilization.

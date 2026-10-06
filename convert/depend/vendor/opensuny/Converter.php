@@ -117,7 +117,6 @@ class Converter  {
         
         $htmlFile = $this->mergeHtml( true );
         $printFile = $this->out_dir.'/book.print.pdf';
-        return ;
         
         $this->printPDF($this->url.'/'.basename($htmlFile), $printFile);
         
