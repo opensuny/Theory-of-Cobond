@@ -20,6 +20,10 @@ html, body {
   -webkit-text-size-adjust: 100%;  
 }
 
+br[data-filtered]{
+	display: none;
+}
+
 .captain {
 font-family: "SourceHanSerifSC";
 font-size: 1rem;

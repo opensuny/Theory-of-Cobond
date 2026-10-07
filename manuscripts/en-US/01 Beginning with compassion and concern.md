@@ -3,19 +3,20 @@
 <div class="story">
 As the cold wind of the Eastern European plains, carrying remnants of snow, swept across the banks of the Dnieper River, the flames of war still raged on this black earth, which shares the same roots and origins.
 A young Ukrainian mother, cradling her infant still in swaddling clothes, made her way through the thin layer of snow that had yet to melt in early spring to her husband’s gravestone. The cold wind swept across the open fields, ruffling her thin headscarf. The child was too young to understand what a final farewell meant; he simply reached out his tiny, slightly reddened hands in innocence, happily touching the photograph of his father on the headstone, babbling with laughter, believing it to be a loved one who would watch over him forever.
-The mother stood silently; her tears had long since been blown dry by the cold wind. She gazed at her child’s innocent face and at the young face on the headstone, her eyes filled with boundless bewilderment, excruciating pain, and silent despair. She had lost her beloved husband; the child had lost a father he had never truly embraced. On this black soil, once bathed in sunlight and abundant with wheat, all that remained now was the acrid smell of gunpowder, a widow and
+
+The mother stood quietly, her tears having been dried by the cold wind. She looked at the child's bewildered face and at the young face on the stone monument. In her eyes was boundless confusion, intense pain and silent despair. She had lost her lover, and the child had lost the father he had never truly embraced. On this black land, which was originally full of sunshine and abundant in wheat, now only remained smoke, orphans and widows, and an endless sadness that stretched as far as the eye could see.
 
 On the other side of the Don River, on the same rich Russian black soil, a white-haired mother sits alone in an empty little cottage. Outside the window, a cold wind blows in from Siberia; inside, the fire in the stove gives off the faint aroma of rye bread. Everything remains just as it was when her son left home—the half-eaten black rye bread on the table, the old teacup he’d used since childhood by his bedside, and the simple tapestry passed down from her ancestors hanging on the wall.
+
 But she knows that the young boy who used to call her “Mom” with a smile, who would chop wood for her, and who would present her with flowers on holidays, will never walk through that door again. She strokes her son’s photograph over and over, without a cry or a wail—only a silence that feels as though everything has been stripped away. She had received medals and honors, yet she had lost the only light of her life. In this land renowned for its resilience, the rest of her life was reduced to nothing but endless waiting and disappointment.
 
 In a small village on the edge of the Maasai Mara grasslands in Kenya, an elderly African mother sits on the parched earth, holding a freshly baked flatbread and gently feeding it to her hungry grandson beside her. She does not know that this life-saving food in her hands comes from Russia, which is currently shrouded in the smoke of war, thousands of miles away. Nor does she realize that across this vast African continent, hundreds of millions of her compatriots, just like her, rely entirely on Russia’s black-soil granaries for their livelihoods. More than half of the wheat grown on this land comes from distant Russia.
 
-This isn’t a plotline; it’s a real-life scenario unfolding every day.
+This isn't a plotline; it's a real-life scenario unfolding every day.
 
 On one side are Ukraine’s wheat fields and songs of sorrow; on the other, Russia’s blizzards and vigilance. And connecting them all, on the distant African continent, are the hopes of hundreds of millions of people for food and shelter, and their reliance on Russian wheat for survival.
 
 The same Eastern European plain, with the same deep black soil, yet they mutually harmed each other in the midst of gunfire, reducing countless families to ashes.
-  
 </div>
 
 In the summer of 2026, on a typical afternoon, a single line of text appeared on my phone screen, leaving me stunned: According to CSIS(Center for Strategic and International Studies, the American strategic and international research center, is a think tank based in Washington D.C., USA.), the conflict between Ukraine and Russia has entered its fifth year. The cumulative casualties of both sides' populations may have exceeded 2 million, and millions more have been displaced from their homes.

@@ -30,6 +30,8 @@ class Converter  {
     
     private $page_break_catalog = 0;
     
+    private $output_name = 'book.pdf';
+    
     private $page_from = 1;
     
     private $page_to = 0;
@@ -130,7 +132,7 @@ class Converter  {
         $pagedFile = $this->out_dir.'/book.paged.pdf';
         $this->addPageNum($printFile, $pagedFile);
         
-        $bookFile = $this->out_dir.'/book.pdf';
+        $bookFile = $this->out_dir.'/'. $this->output_name;
         
         $this->addBookmark($pagedFile, $bookmark, $bookFile);
         
