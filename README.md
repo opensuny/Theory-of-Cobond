@@ -12,14 +12,14 @@
 
 预印本，74万字。
 
-*我们诚挚邀请全世界对人类和平与命运怀有深切关切的人，共同参与蓝图的构绘，一起完善本书的内容，并协助将其翻译成其他语言。如有任何疑问或建议讨论，请联系我们 opensuny@yeah.net*
+*我们诚挚邀请全世界对人类和平与命运怀有深切关切的人，共同参与蓝图的构绘，一起完善本书的内容，并协助将其翻译成其他语言。如有任何疑问或建议讨论，请联系我们 张旭(中国): opensuny@yeah.net, 维克多·德奥利维拉·利贝拉莱(巴西）: victor.liberale@unifesp.br*
 
 **残酷的现实**
 2026年，俄乌战争已进入第五年，暴露出威斯特伐利亚主权国家体系在面对零和安全困境时的结构性局限。人们都在谈论局势、胜负、停火、制裁，但一个根本性问题依然存在，现有的和平方案——某方胜利、冻结战线、维持中立、第三方安全保障，并未解决冲突的根本矛盾，都只是下一场更激烈的冲突的前奏——无解的僵局——除非我们重新思考安全架构本身。所有的和平计划都存在结构性缺陷，它们只是重新分配了零和蛋糕的碎片，而没有真正重构零和结构本身。
 
-与此同时，全球几乎所有国家都在加快军事建设，这一现象表面上在增强了自身安全的同时，却使大多数国家陷入更深的焦虑之中。一个国家军力的增强，可能会引发邻国的安全焦虑，从而引发新一轮的军备竞赛——这也是当前国际安全架构濒临崩溃的直接表现。
+与此同时，全球几乎所有国家都在快速扩建军备，在增强了自身安全的同时，却使更多国家陷入更深的焦虑之中。一个国家军力的增强，往往会引发邻国的安全焦虑，从而引发新一轮的军备竞赛——这也是当前国际安全架构濒临崩溃的直接表现。
 
-这已经无法满足人类普遍的安全需求，我们能否从工程学的角度设计一种新型的国家间关系形态，从结构上消除战争？这种新型关系形态被称为“共邦”——即由独立主权实体通过共享核心功能而组成的安全与命运的共同体。
+显然，当前的国际安全框架已经无法满足人类普遍的安全需求，我们能否从工程学的角度设计一种新型的国家间关系形态，从结构上消除战争？这种新型关系形态被称为“共邦”——即由独立主权实体通过共享核心功能而组成的安全与命运的共同体。
 
 其核心主张既激进又清晰：战争无法通过胜利、制裁或停火条约永久终结，唯有对国家间的安全关系进行重新结构设计才能实现根本性改变。其核心在于“主权独立 + 军事互锁”的架构：国家保留完全的主权独立，同时其核心安全职能高度交织，从而构建安全与共的国家间关系新形态。
 
@@ -46,7 +46,7 @@ Original Work in Chinese, 740,000 Chinese characters.
 
 *We sincerely invite people from all over the world who have deep concern for the peace and destiny of humanity to join us in contributing to the creation of this blueprint for the future of human civilization. Together, we will refine the content of this book and assist in its translation into other languages.
 If you have any questions or suggestions for discussion, please contact us.  
-Email: opensuny@yeah.net*
+Zhang Xu(China): opensuny@yeah.net, Victor de Oliveira Liberale(Brazil): victor.liberale@unifesp.br*
 
 ## The Cruel Reality
 
