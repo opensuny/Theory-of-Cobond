@@ -1,9 +1,7 @@
 *Preprint Edition — Original Work in Chinese, 740,000 characters.*
 *We sincerely invite readers worldwide who share a deep concern for the peace and destiny of humanity to join us in refining this blueprint for the future of human civilization and in bringing it to more languages.*
-*For questions or suggestions, please contact: Zhang Xu(China): opensuny@yeah.net*
-
-*Victor de Oliveira Liberale(Brazil): victor.liberale@unifesp.br*
-*Collaborative writing: https://github.com/opensuny/Theory-of-Cobond*
+*For questions or suggestions, please contact: Zhang Xu(China): opensuny@yeah.net, Victor de Oliveira Liberale(Brazil): victor.liberale@unifesp.br*
+*Co-authoring Invitation: https://github.com/opensuny/Theory-of-Cobond*
 *ResearchGate: https://www.researchgate.net/publication/413532536_Ending_the_Russia-Ukraine_War_A_Century-Long_Peace_Architecture_for_Europe_Based_on_Human_Civilization_Engineering*
 
 # Preface

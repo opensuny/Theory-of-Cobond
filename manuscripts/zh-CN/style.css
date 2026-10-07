@@ -26,7 +26,7 @@
 }
 
 .cover .subhead{
-	font-size: 3.5rem;
+	font-size: 4rem;
 	font-weight:bold;
 	letter-spacing: 1.5rem;
 	padding-left: 1.5rem;
@@ -34,14 +34,14 @@
 
 .cover .case{
 	font-family: 'Source Han Sans CN';
-	font-size: 3.6rem;
+	font-size: 4.5rem;
 	font-weight:bold;
 }
 
 .cover .work{	
 	font-weight:bold;
-	font-size: 2.5rem;
-	margin-top:3rem;
+	font-size: 3rem;
+	margin-top:7rem;
 }
 
 @media print{

@@ -30,6 +30,10 @@ class Converter  {
     
     private $page_break_catalog = 0;
     
+    private $page_from = 1;
+    
+    private $page_to = 0;
+    
     private $title = '';
     
     private $seglen = 6;
@@ -189,6 +193,9 @@ class Converter  {
         $pdf->setTitle($this->title);
         
         for ($i = 1; $i <= $pageCount; $i++) {
+			if($i < $this->page_from) continue;
+			if($this->page_to > 1 && $i > $this->page_to ) continue;
+        
             $tpl = $pdf->importPage($i);
             $size = $pdf->getTemplateSize($tpl);
             $pdf->AddPage($size['orientation'], [$size['width'], $size['height']]);
