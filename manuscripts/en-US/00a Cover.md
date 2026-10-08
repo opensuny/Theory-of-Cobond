@@ -5,7 +5,7 @@
 <h1>The Theory of Cobond</h1>
 <p class="subhead">A New Form for Human Civilization</p>
 <p class="case">
-Ending the Russia-Ukraine War : 
+Ending the Russia-Ukraine War 
 A Century-Long Peace Architecture for Europe
 Based on Human Civilization Engineering
 </p>

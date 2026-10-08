@@ -12,39 +12,28 @@
     font-display:block;
 }
 
-
 html, body {
-  font-family: 'SourceHanSansCN';
+  font-family: 'SourceHanSerifSC';
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust: 100%;  
 }
 
-br[data-filtered]{
-	display: none;
-}
-
 .captain {
-font-family: "SourceHanSerifSC";
-font-size: 1rem;
+font-family: "SourceHanSansCN";
 line-height:180%;
 white-space: pre-wrap;
 margin-bottom:1rem;
 }
 
 div.story {
-font-size: 1rem;
 line-height:180%;
-font-family: "SourceHanSerifSC";
-white-space: pre-wrap;
-margin-bottom:1rem;
+font-family: "SourceHanSansCN";
 }
 
 .note {
-font-size: 1rem;
-font-family: "SourceHanSerifSC";
+font-family: "SourceHanSansCN";
 white-space: pre-wrap;
-margin-bottom: 1rem;
 line-height:200%;
 }
 
@@ -55,7 +44,7 @@ table{
 p{
 	white-space: pre-wrap;
 	line-height: 180%;
-	margin-bottom:0.6rem;
+	margin-bottom:0.6rem;	
 }
 
 h1, h2, h3{
@@ -98,19 +87,21 @@ h1, h2, h3{
 	.cover .author {
 		padding-bottom:3rem;
 	}
+	
+	.nav-tree{
+		float:left;
+		width:20rem;
+		height:100vh;
+		background-color:#ccc;
+	}
+	
+	.main-content{
+	height:100vh;
+	overflow:auto;
+	}
 }
 
 @media print {
-.page-break {
-    page-break-after: always;
-    break-after: page;
-    height:0; 
-    overflow:hidden; 
-    margin:0; 
-    padding:0; 
-    border:0;
-  }
-  
   @page:first{
 	padding:0;
 	margin:0;
@@ -121,4 +112,19 @@ h1, h2, h3{
 	margin:0;
 	padding-bottom:3rem;
   }
+  
+  .nav-tree{
+	display:none;
+  }
+  
+  .page-break {
+    page-break-after: always;
+    break-after: page;
+    height:0; 
+    overflow:hidden; 
+    margin:0; 
+    padding:0; 
+    border:0;
+  }
+  
 }
