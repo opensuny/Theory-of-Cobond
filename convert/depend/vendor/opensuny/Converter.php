@@ -30,6 +30,8 @@ class Converter  {
     
     private $page_break_catalog = 0;
     
+    private $navbar = 1;
+    
     private $output_name = 'book.pdf';
     
     private $page_from = 1;
@@ -122,7 +124,7 @@ class Converter  {
         }
         
         $htmlFile = $this->mergeHtml( true );
-        $printFile = $this->out_dir.'/book.print.pdf';
+        $printFile = $this->out_dir.'/book.print.pdf';        
         
         $this->printPDF($this->url.'/'.basename($htmlFile), $printFile);
         
@@ -136,8 +138,24 @@ class Converter  {
         
         $this->addBookmark($pagedFile, $bookmark, $bookFile);
         
-        unlink($printFile);
-        unlink($pagedFile);
+        $this->getNavbar($bookmark);
+        
+        //unlink($printFile);
+        //unlink($pagedFile);
+    }
+    
+    protected function getNavbar($bookmark) {
+        $lines = file($bookmark);
+        $list = '';
+        $ol = -1;
+        foreach ($lines as $i => $line) {
+            preg_match('/^(\d\s)"(.+?)"([\s\S]+)/i', $line, $res);
+            $level = $res[1];
+            $title = $res[2];
+            
+            $list .= "<details><summary>{$line}</summary></details>"; 
+            
+        }
     }
     
     protected function addBookMark($srcFile, $catalog, $outFile) {
@@ -225,15 +243,13 @@ class Converter  {
         
         $output = '';
         
-        $counter = 0;
-        
         //封面页
         $pages = 1;
         
-        $catatree = [];
+        $trees = [];
         
         foreach($docs as $i => $file) {
-            //if($i > 2 ) continue;
+            //if($i > 10 ) continue;
             $content = file_get_contents($file);
             
             $title = '';
@@ -279,11 +295,11 @@ class Converter  {
         $output = str_replace(["\r\n", "\r"], "\n", $output);
         $output = str_replace("\n", "\r\n", $output);
         
-        $content = str_replace(['{title}', '{content}'], [$this->title, $output], file_get_contents($this->doc_dir.'/page.html'));
+        $output = str_replace(['{title}', '{content}'], [$this->title, $output], file_get_contents($this->doc_dir.'/page.html'));
         $file = "{$this->out_dir}/book.html";
         
-        file_put_contents($file, $content);
-        echo "Meged $file, $counter parts. \r\n";
+        file_put_contents($file, $output);
+        echo "Meged $file. \r\n";
         
         return $file;        
     }
