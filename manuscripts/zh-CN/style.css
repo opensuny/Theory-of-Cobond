@@ -40,15 +40,77 @@
 
 .cover .work{	
 	font-weight:bold;
-	font-size: 3.6rem;
-	margin-top:3rem;
+	font-size: 4rem;
 }
 
 .cover .author{	
 	font-size: 1.5rem;
 }
 
+summary {
+  display:block;
+  cursor:pointer;
+}
+/* 手动用::before实现箭头，只给有子details的条目 */
+details:has(> details) > summary::before{
+  content:"▷ ";
+  margin-left:-1em;
+}
+details:has(> details)[open] > summary::before{
+  content:"▽ ";
+  
+}
+
+details details summary{
+	padding-left:1rem;
+}
+
+details details details summary{
+padding-left:2rem;
+}
+
+
+@media screen{
+
+	.cover .work{
+		margin-top: 3rem;
+	}
+	
+	.view-tree a{
+		text-decoration:none;
+		color:#000;
+	}
+	
+	.view-tree a:hover{
+		font-weight:bold;
+	}
+	
+	.view-tree{
+		float:left;
+		height:100vh;
+		overflow:auto;
+		padding-left:2rem;
+		padding-top:1rem;
+		font-size:0.8rem;
+		resize: horizontal;
+		background-color:#eee;
+		font-family: 'SourceHanSansCN';
+	}
+	
+	.view-content{
+		height:100vh;
+		overflow:auto;
+		padding:0 1rem 0 1rem;
+		overflow-x:hidden;
+	}
+}
+
 @media print{
+
+.view-tree{
+	display:none;
+}
+
 .cover{
 	height:100vh;
 	position:relative;
@@ -61,6 +123,10 @@
   .cover .case{
 	margin-top:3rem;
   }
+  
+  .cover .work{
+		margin-top: 9rem;
+	}
   
   .cover .author{
 	width:100%;

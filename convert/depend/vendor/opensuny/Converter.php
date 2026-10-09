@@ -123,8 +123,12 @@ class Converter  {
             return $this->mergeHtml( $this->format === 'single.html');
         }
         
-        $htmlFile = $this->mergeHtml( true );
+        $htmlFile = "{$this->out_dir}/book.html";;
+        
+        $this->mergeHtml( $htmlFile );
         $printFile = $this->out_dir.'/book.print.pdf';        
+        
+        return ;
         
         $this->printPDF($this->url.'/'.basename($htmlFile), $printFile);
         
@@ -138,25 +142,9 @@ class Converter  {
         
         $this->addBookmark($pagedFile, $bookmark, $bookFile);
         
-        $this->getNavbar($bookmark);
-        
         //unlink($printFile);
         //unlink($pagedFile);
-    }
-    
-    protected function getNavbar($bookmark) {
-        $lines = file($bookmark);
-        $list = '';
-        $ol = -1;
-        foreach ($lines as $i => $line) {
-            preg_match('/^(\d\s)"(.+?)"([\s\S]+)/i', $line, $res);
-            $level = $res[1];
-            $title = $res[2];
-            
-            $list .= "<details><summary>{$line}</summary></details>"; 
-            
-        }
-    }
+    }  
     
     protected function addBookMark($srcFile, $catalog, $outFile) {
         $cmd = escapeshellarg($this->cpdf). " -add-bookmarks ". escapeshellarg($catalog) .' ' . escapeshellarg($srcFile). ' -o '. escapeshellarg($outFile);
@@ -234,7 +222,7 @@ class Converter  {
         $pdf->Output($outFile, 'F');
     }
     
-    protected function mergeHtml($single = false) {
+    protected function mergeHtml($htmlFile) {
         
         echo "\r\nMerging documents: $this->doc_dir \r\n";
         $docs = glob($this->doc_dir.'/*.md');
@@ -248,8 +236,10 @@ class Converter  {
         
         $trees = [];
         
+        $tree  = '';
+        
         foreach($docs as $i => $file) {
-            //if($i > 10 ) continue;
+            //if($i != 23 ) continue;
             $content = file_get_contents($file);
             
             $title = '';
@@ -274,7 +264,7 @@ class Converter  {
             
             //如果全局不分页，且在分页列表中
             if(!$this->page_break_global && in_array($i, $this->page_break_include)) {
-                $content = $content . '<p class="page-break"></p>';
+                $content = $content . '<p class="page-break pp"></p>';
             }
             
             $content = "<div class=\"part part-{$i}\">" .  $content . '</div>';
@@ -286,8 +276,11 @@ class Converter  {
             
             //目录页位于术语表之后
             if($i === 2 && $this->catalog) {
-                $content = $content . $this->addCatalog();
+                //$content = $content . $this->addCatalog();
             }
+            
+            $url_name = '';
+            $tree .= $this->getTree($content, $url_name);
             
             $output .= $content;
         }
@@ -295,11 +288,12 @@ class Converter  {
         $output = str_replace(["\r\n", "\r"], "\n", $output);
         $output = str_replace("\n", "\r\n", $output);
         
-        $output = str_replace(['{title}', '{content}'], [$this->title, $output], file_get_contents($this->doc_dir.'/page.html'));
-        $file = "{$this->out_dir}/book.html";
         
-        file_put_contents($file, $output);
-        echo "Meged $file. \r\n";
+        
+        $output = str_replace(['{tree}','{title}', '{content}'], [$tree, $this->title, $output], file_get_contents($this->doc_dir.'/page.html'));
+                
+        file_put_contents($htmlFile, $output);
+        echo "Meged $htmlFile. \r\n";
         
         return $file;        
     }
@@ -326,6 +320,65 @@ class Converter  {
         
         $c = ob_get_clean();
         
+        return $c;
+    }
+    
+    protected function getTree(&$content, $url_name='') {
+        static $i = 0;
+        
+        $i++ ;
+        
+        $t1 = $t2 = $t3 = null;
+        
+        preg_match('|<h1>(.+?)</h1>|', $content, $res);
+        $t1 = $res[1];
+        
+        $links[$i] = $t1;
+        
+        ob_start();
+        echo "<details><summary><a href=\"{$url_name}#T-{$i}\">$t1</a></summary>";
+        
+        $offset = 0;
+        $parts = preg_split('|<h2>|', $content);
+        foreach ($parts as $part) {
+            $i++;
+            preg_match('|(.+?)</h2>|', $part, $res);
+            if(empty($res[1])) continue;
+            
+            $t2 = $res[1];
+            //$content = preg_replace('|<h2>(.+?)</h2>|', "<span id=\"T-{$i}\"></span><h1>{$t1}</h1>", $content);
+            echo "<details><summary><a href=\"{$url_name}#T-{$i}\">{$t2}</a></summary>";
+            $links[$i] = $t2;
+            
+            $ts2[] = $t2;
+            
+            $sections = preg_split('|<h3>|', $part);
+            
+            $ts3 = [];
+            
+            foreach($sections as $section) {
+                $i++;
+                preg_match('|(.+?)</h3>|', $section, $res);
+                if(empty($res[1])) continue;
+                $t3 = $res[1];
+                //echo "\t\t$t3 \r\n";
+                echo "<details><summary><a href=\"{$url_name}#T-{$i}\">{$t3}</a></summary></details>";
+                $ts3[] = $t3;
+                $links[$i] = $t3;
+            }
+            
+            echo '</details>';
+        }
+        
+        foreach($links as $i => $t) {
+            $content = str_replace("<h1>{$t}</h1>", "<span id=\"T-{$i}\"></span><h1>{$t}</h1>", $content);
+            $content = str_replace("<h2>{$t}</h2>", "<span id=\"T-{$i}\"></span><h2>{$t}</h2>", $content);
+            $content = str_replace("<h3>{$t}</h3>", "<span id=\"T-{$i}\"></span><h3>{$t}</h3>", $content);
+        }
+        
+        echo '</details>';
+        
+        $c = ob_get_clean();
         return $c;
     }
     

@@ -12,5 +12,9 @@ convert/*
 !build/main
 !*.cfg
 
+!convert/zh-CN/assets
+!convert/zh-CN/assets/*
+
+
 
 
