@@ -11,6 +11,10 @@ convert/en-US/*.pdf
 convert/en-US/*.html
 convert/en-US/*.txt
 
+convert/pt-BR/*.pdf
+convert/pt-BR/*.html
+convert/pt-BR/*.txt
+
 !*.cfg
 
 
