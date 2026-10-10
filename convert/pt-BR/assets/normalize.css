@@ -1,0 +1,115 @@
+
+
+@font-face {
+    font-family: 'SourceHanSerifSC';
+    src: url('fonts/SourceHanSerifSC-Regular.otf') format('opentype');
+    font-display:block;
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN';
+    src: url('fonts/SourceHanSansCN-Regular.otf') format('opentype');
+    font-display:block;
+}
+
+@font-face {
+    font-family: 'Note';
+    src: url('fonts/LXGWWenKaiMonoGB-Regular.ttf') format('truetype');
+    font-display:block;
+}
+
+
+html, body {
+  font-family: 'SourceHanSerifSC';
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  
+}
+
+
+.captain {
+font-family: "SourceHanSansCN";
+font-size: 1rem;
+line-height:180%;
+white-space: pre-wrap;
+margin-bottom:1rem;
+}
+
+div.story {
+font-size: 1rem;
+line-height:180%;
+font-family: "Note";
+white-space: pre-wrap;
+margin-bottom:1rem;
+}
+
+.note {
+font-size: 1rem;
+font-family: "Note";
+white-space: pre-wrap;
+margin-bottom: 1rem;
+line-height:200%;
+}
+
+table{
+	font-size:0.8rem;
+}
+
+p{
+	white-space: pre-wrap;
+	line-height: 180%;
+	margin-bottom:0.6rem;
+}
+
+h1, h2, h3{
+	font-family: 'Source Han Sans CN';
+}
+
+@media screen {
+	.part{
+		padding:1rem;
+	}
+}
+
+@media print {
+.page-break {
+    page-break-after: always;
+    break-after: page;
+    height:0; 
+    overflow:hidden; 
+    margin:0; 
+    padding:0; 
+    border:0;
+  }
+  
+  @page:first{
+	padding:0;
+	margin:0;
+  }
+  
+  @page{
+	padding:2.5rem;
+	margin:0;
+	padding-bottom:3rem;
+  }  
+  
+  .cover h1{
+	padding-top: 8rem;
+  }
+  
+  .cover .case{
+	margin-top:4rem;
+	margin-bottom:6rem;
+  }
+  
+  .cover{
+	height:100vh;
+  }
+  
+  .cover .author{
+	margin-top:2rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
+  }
+}

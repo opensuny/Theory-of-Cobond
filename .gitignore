@@ -2,18 +2,16 @@ dist
 .buildpath
 .project
 .settings
-build
-_build
 
-convert/*
-!build/assets
-!build/depend
-!build/docs
-!build/main
+convert/zh-CN/*.pdf
+convert/zh-CN/*.html
+convert/zh-CN/*.txt
+
+convert/en-US/*.pdf
+convert/en-US/*.html
+convert/en-US/*.txt
+
 !*.cfg
-
-!convert/zh-CN/assets
-!convert/zh-CN/assets/*
 
 
 

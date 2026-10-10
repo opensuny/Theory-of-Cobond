@@ -42,6 +42,8 @@ class Converter  {
     
     private $seglen = 6;
     
+    private $page_num_begin = 1;
+    
     private $cpdf;
     
     private $root_dir;
@@ -69,11 +71,11 @@ class Converter  {
             
             $this->{$matches[1]} = $matches[2];
         }
+        
+        $this->out_dir = $this->root_dir .'/'. $this->lang ;
+        is_dir($this->out_dir) or mkdir($this->out_dir);
                 
         $this->doc_dir = realpath($this->root_dir.'/../manuscripts/'.$this->lang);
-        $this->out_dir = $this->root_dir. '/'.$this->lang;
-        
-        is_dir($this->out_dir) or mkdir($this->out_dir);
         
         if(!$this->doc_dir || !is_dir($this->doc_dir)) {
             exit("$this->doc_dir is not exsits.");
@@ -123,12 +125,10 @@ class Converter  {
             return $this->mergeHtml( $this->format === 'single.html');
         }
         
-        $htmlFile = "{$this->out_dir}/book.html";;
+        $htmlFile = "{$this->out_dir}/book.html";
         
         $this->mergeHtml( $htmlFile );
-        $printFile = $this->out_dir.'/book.print.pdf';        
-        
-        return ;
+        $printFile = $this->out_dir.'/book.print.pdf';
         
         $this->printPDF($this->url.'/'.basename($htmlFile), $printFile);
         
@@ -211,7 +211,7 @@ class Converter  {
             
             if ($i < $bodyStartPage) continue;
             
-            $pageNum = $i - $bodyStartPage + 1;
+            $pageNum = $i - $bodyStartPage + 1 ;
             $footerY = $size['height'] - 15;
             
             $pdf->SetAbsXY(0, $footerY);
@@ -239,13 +239,16 @@ class Converter  {
         $tree  = '';
         
         foreach($docs as $i => $file) {
-            //if($i != 23 ) continue;
+            //if($i > 3 ) continue;
             $content = file_get_contents($file);
             
             $title = '';
             
             $content =  preg_replace('/^(\d+)\.\s/m', '$1.', $content);
             $content =  preg_replace('/^(<div class=")(note|story|captain)(">[\r\n]+)/m', '$1$2">', $content);
+            
+            $content = preg_replace('/<div class="(note|story|captain)">/i', '<!-- $1 -->'."\r\n", $content);
+            $content = str_replace('</div>','<!-- div.end -->' , $content);
             
             $content = $converter->convert( $content );
             
@@ -254,6 +257,9 @@ class Converter  {
             
             $content = str_replace(["\r\n", "\r"], "\n", $content);
             $content = str_replace("\n", "\r\n", $content);
+            
+            $content = preg_replace('/<!-- (note|story|captain) -->/i', '<div class="$1">', $content);
+            $content = str_replace('<!-- div.end -->','</div>' , $content);
             
             $content =  preg_replace('/<table>/m', '<table class="table table-bordered">', $content);
             
@@ -276,7 +282,7 @@ class Converter  {
             
             //目录页位于术语表之后
             if($i === 2 && $this->catalog) {
-                //$content = $content . $this->addCatalog();
+                $content = $content . $this->addCatalog();
             }
             
             $url_name = '';
@@ -287,8 +293,6 @@ class Converter  {
         
         $output = str_replace(["\r\n", "\r"], "\n", $output);
         $output = str_replace("\n", "\r\n", $output);
-        
-        
         
         $output = str_replace(['{tree}','{title}', '{content}'], [$tree, $this->title, $output], file_get_contents($this->doc_dir.'/page.html'));
                 

@@ -1,0 +1,136 @@
+
+.cover{
+	background-color:#1f4e79;
+	color:#fff;
+	text-align:center;
+}
+
+.cover h1 {
+  font-size: 7rem;
+  padding-top:5rem;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  color: #F7ba00;
+  
+  letter-spacing: 3.5rem;
+  padding-left: 4rem;
+  
+  text-shadow:
+    -1px -1px 0 #F7ba00,
+    1px 1px 0 #B8860B,
+    2px 2px 0 #A0762C,
+    3px 3px 0 #8B6508,
+    4px 4px 6px rgba(0,0,0,0.4),
+    0 0 15px rgba(255,215,0,0.6),
+    0 0 30px rgba(255,215,0,0.3);
+}
+
+.cover .subhead{
+	font-size: 3rem;
+	font-weight:bold;
+	letter-spacing: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+.cover .case{
+	font-family: 'SourceHanSansCN';
+	font-size: 3.6rem;
+	font-weight:bold;
+}
+
+.cover .work{	
+	font-weight:bold;
+	font-size: 2.6rem;
+}
+
+.cover .author{	
+	font-size: 1.25rem;
+}
+
+summary {
+  display:block;
+  cursor:pointer;
+}
+/* 手动用::before实现箭头，只给有子details的条目 */
+details:has(> details) > summary::before{
+  content:"▷ ";
+  margin-left:-1em;
+}
+details:has(> details)[open] > summary::before{
+  content:"▽ ";
+  
+}
+
+details details summary{
+	padding-left:1rem;
+}
+
+details details details summary{
+padding-left:2rem;
+}
+
+
+@media screen{
+
+	.cover .work{
+		margin-top: 3rem;
+	}
+	
+	.view-tree a{
+		text-decoration:none;
+		color:#000;
+	}
+	
+	.view-tree a:hover{
+		font-weight:bold;
+	}
+	
+	.view-tree{
+		float:left;
+		height:100vh;
+		overflow:auto;
+		padding-left:2rem;
+		padding-top:1rem;
+		font-size:0.8rem;
+		resize: horizontal;
+		background-color:#eee;
+		font-family: 'SourceHanSansCN';
+	}
+	
+	.view-content{
+		height:100vh;
+		overflow:auto;
+		padding:0 1rem 0 1rem;
+		overflow-x:hidden;
+	}
+}
+
+@media print{
+
+.view-tree{
+	display:none;
+}
+
+.cover{
+	height:100vh;
+	position:relative;
+  }
+  
+  .cover h1{
+	padding-top: 6rem;
+  }
+  
+  .cover .case{
+	margin-top:3rem;
+  }
+  
+  .cover .work{
+		margin-top: 4rem;
+	}
+  
+  .cover .author{
+	width:100%;
+	position:absolute;
+	bottom:4rem;
+  }
+}
