@@ -3,13 +3,16 @@
 @font-face {
     font-family: 'SourceHanSerifSC';
     src: url('fonts/SourceHanSerifSC-Regular.otf') format('opentype');
-    font-display:block;
 }
 
 @font-face {
     font-family: 'SourceHanSansCN';
     src: url('fonts/SourceHanSansCN-Regular.otf') format('opentype');
-    font-display:block;
+}
+
+@font-face {
+    font-family: 'Note';
+    src: url('fonts/LXGWWenKaiMonoGB-Regular.ttf') format('truetype');
 }
 
 html, body {
@@ -29,13 +32,13 @@ font-size:1rem;
 
 div.story {
 line-height:180%;
-font-family: "SourceHanSansCN";
+font-family: "Note";
 margin-bottom: 0.6rem;
 font-size:1rem;
 }
 
 .note {
-font-family: "SourceHanSansCN";
+font-family: "Note";
 line-height:200%;
 font-size:1rem;
 }
@@ -52,6 +55,22 @@ p{
 
 h1, h2, h3{
 	font-family: 'SourceHanSansCN';
+}
+
+.case {
+	font-family: 'SourceHanSansCN';
+}
+
+h1{
+font-size:1.5rem;
+}
+
+h2{
+font-size: 1.25rem;
+}
+
+h3{
+font-size: 1rem;
 }
 
 .catalog .item {

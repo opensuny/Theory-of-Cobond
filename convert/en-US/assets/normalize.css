@@ -12,6 +12,11 @@
     font-display:block;
 }
 
+@font-face {
+    font-family: 'Note';
+    src: url('fonts/LXGWWenKaiMonoGB-Regular.ttf') format('truetype');
+}
+
 html, body {
   font-family: 'SourceHanSerifSC';
   margin: 0;
@@ -23,7 +28,6 @@ html, body {
 .captain {
 font-family: "SourceHanSansCN";
 line-height:180%;
-white-space: pre-wrap;
 margin-bottom:1rem;
 font-size:1.2rem;
 }
@@ -37,7 +41,6 @@ font-size:1.2rem;
 .note {
 font-family: "SourceHanSansCN";
 white-space: pre-wrap;
-line-height:200%;
 font-size:1.2rem;
 }
 
@@ -53,6 +56,18 @@ p{
 
 h1, h2, h3{
 	font-family: 'SourceHanSansCN';
+}
+
+h1{
+font-size:1.5rem;
+}
+
+h2{
+font-size: 1.25rem;
+}
+
+h3{
+font-size: 1rem;
 }
 
 .catalog .item {

@@ -33,7 +33,6 @@
 }
 
 .cover .case{
-	font-family: 'SourceHanSansCN';
 	font-size: 3.6rem;
 	font-weight:bold;
 }
@@ -91,7 +90,7 @@ padding-left:2rem;
 		overflow:auto;
 		padding-left:2rem;
 		padding-top:1rem;
-		font-size:0.8rem;
+		font-size:1rem;
 		resize: horizontal;
 		background-color:#eee;
 		font-family: 'SourceHanSansCN';
