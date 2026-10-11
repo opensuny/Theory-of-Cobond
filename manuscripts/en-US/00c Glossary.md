@@ -14,7 +14,7 @@
 
 6. De-interlocking Warning: When a member state initiates the De-interlocking process, as the termination of the security binding relationship holds significant strategic importance, this action itself will serve as a structural signal, allowing other member states to anticipate that their military stance, strategic direction, or security policy may undergo major changes, and providing opportunities for diplomatic communication, risk assessment, and security adjustments.
 
-7. MAC (Mutually Assured Constraint)：As a new international security paradigm replacing MAD (Mutually Assured Destruction), it is founded on the principle of sovereign independence, with military interlocking as its core structural design and shared security interests as its guiding goal—rendering war between member states structurally meaningless. this ends the logic of passive peace under traditional deterrence through fear, shifting toward a philosophy of active peace grounded in shared security. It unifies negative peace and positive peace within a single architecture, providing an entirely new methodological and engineering framework for humanity to transcend the cycle of war and build a higher-order security community.
+7. MAC (Mutually Assured Constraint)：As a new international security paradigm replacing MAD (Mutually Assured Destruction), it is founded on the principle of sovereign independence, with military interlocking as its core structural design and shared security interests as its guiding goal—rendering war between member states structurally meaningless. This ends the logic of passive peace under traditional deterrence through fear, shifting toward a philosophy of active peace grounded in shared security. It unifies negative peace and positive peace within a single architecture, providing an entirely new methodological and engineering framework for humanity to transcend the cycle of war and build a higher-order security community.
 
 8. Society Integration (A Strong Network of Shared Interests): Build a social ecological network in which members are highly interconnected and interdependent, so that the prosperity and stability of any single member are deeply dependent on the healthy functioning of the entire community, making the preservation of the community the rational choice that best serves their respective interests.
 
@@ -54,9 +54,9 @@
 
 26. Optimized State Form: A tool to serve the people — Civilization's garb, dwellings and vehicles.
 
-27. Alienated State Form:  A tool for Ruling the people—civilization's prison garb, prison cells, and prison cars.
+27. Alienated State Form:  A tool for ruling the people—civilization's prison garb, prison cells, and prison van.
 
-28. Liro (Profit-Snare): A portmanteau of Li (利, profit) and Luo (罗, snare/trap), denoting both: (a) the general phenomenon of being lured into a trap by the pursuit of short-term gains, ultimately leading to self-entanglement and destruction; and (b) the specific geopolitical confrontation between the United States (Li) and Russia (Luo), two major military powers, which is dragging humanity into a trap and putting it at risk of destruction.
+28. Liro (Profit-Snare): The general phenomenon of being lured into a trap by the pursuit of short-term gains, ultimately leading to self-entanglement and destruction; and (b) the specific geopolitical confrontation between the United States (Li) and Russia (Luo), two major military powers, which is dragging humanity into a trap and putting it at risk of destruction.
 
 29. Liroism: The adherence to Liro's ideas and behavioral patterns.
 
@@ -72,7 +72,7 @@
 
 35. Philosophy: The discipline that examines and explores the essence of things. This is the concise definition of this discipline provided in the book.
 
-36. Human Civilization Engineering:  Using *The Theory of Life Continuation*, *The Theory of Form Serving*, and *The Theory of Imperfect Evolution* as the foundation of materials engineering, and taking *The Theory of Cobond* as the core system architecture, it employs systems theory and engineering methodologies to design and create a civilizational form that benefits all of humanity, thereby achieving a transformative leap in human civilization from conflict and opposition to symbiosis and prosperity.
+36. Human Civilization Engineering:  Using the Axiom of Survival, the Axiom of Form Serving, and the Axiom of Perfect Paradox as its theoretical foundation, and taking *The Theory of Cobond* as the core system architecture, it employs systems theory and engineering methodologies to design and create a civilizational form that benefits all of humanity, thereby achieving a transformative leap in human civilization from conflict and opposition to symbiosis and prosperity.
 
 37. Academy of Human Civilization Engineering（AHCE）：An educational and research institution focused on "Human Civilization Engineering" established in conflict-affected regions where the Cobond architecture and spirit have already been successfully implemented.
 
@@ -82,7 +82,7 @@
 
 40. Economics of Human Civilization Engineering:  A foundational discipline that reconstructs economic theory and practice from the ultimate perspective of the overall survival and evolution of human civilization. By applying the systematic design thinking of engineering, it diagnoses and resolves the deep-seated ills of "Liroism"—which lead to resource misallocation, cyclical crises, and the unsustainability of civilization—within current economic models. It designs and establishes institutional frameworks and resource allocation mechanisms capable of ensuring that resources serve the goals of civilization's overall survival and prosperity in a sustainable, stable, and equitable manner over millennia or even longer timeframes.
 
-41. Finance of Human Civilization Engineering: A discipline of financial engineering and institutional design that studies how to hedge against the risks of short-sightedness in civilizational systems and ensure their long-term survival through institutionalized capital accumulation and strategic allocation. It is founded on the following understanding: a civilization is like a living organism, and its greatest systemic risk does not stem from external shocks, but from an internal, cyclical tendency toward "Liroism"—that is, overdrawing on the future for short-term gains. The core mission of this discipline is to design and maintain an institutionalized immune system known as the "Civilization Perpetual Prosperity Fund" , transforming it into a stabilizer and regenerative reservoir that enables civilization to resist its "Liro" self-destructive tendencies.
+41. Public Finance of Human Civilization Engineering: A discipline of financial engineering and institutional design that studies how to hedge against the risks of short-sightedness in civilizational systems and ensure their long-term survival through institutionalized capital accumulation and strategic allocation. It is founded on the following understanding: a civilization is like a living organism, and its greatest systemic risk does not stem from external shocks, but from an internal, cyclical tendency toward "Liroism"—that is, overdrawing on the future for short-term gains. The core mission of this discipline is to design and maintain an institutionalized immune system known as the "Civilization Perpetual Prosperity Fund" , transforming it into a stabilizer and regenerative reservoir that enables civilization to resist its "Liro" self-destructive tendencies.
 
 42. Shield of Freedom：The right of members to withdraw from Cobond without conditions.
 
@@ -108,6 +108,6 @@
 
 53. Twilight of Aircraft Carrier Era: Denotes the onset of the decline of U.S. unipolar hegemony and the advent of the era of unmanned warfare, precipitated by the United States' defeat in the 2026 war with Iran.
 
-54. Refrigerator Paradox: The original purpose of a refrigerator is to keep food fresh, but in practice, it often becomes a tool that causes food to spoil.
+54. Refrigerator Paradox: The original purpose of a refrigerator is to keep food fresh, but in practice, it often becomes a tool that turns food into expired and spoiled waste.
 
 55. Zero-sum Game: In such activities, one party's gain necessarily means the other party's loss, and the sum of both parties' gains and losses is always zero. This is commonly seen in gambling, market competition, and certain types of political or military conflicts.

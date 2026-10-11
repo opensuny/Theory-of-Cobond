@@ -1,3 +1,5 @@
+![story](assets/images/story.jpg)![arch](assets/images/arch.jpg)
+
 *Preprint Edition — Original Work in Chinese, 740,000 characters.*
 *We sincerely invite readers worldwide who share a deep concern for the peace and destiny of humanity to join us in refining this blueprint for the future of human civilization and in bringing it to more languages.*
 *For questions or suggestions, please contact: Zhang Xu(China): opensuny@yeah.net, Victor de Oliveira Liberale(Brazil): victor.liberale@unifesp.br*
