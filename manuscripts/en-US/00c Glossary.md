@@ -60,7 +60,7 @@
 
 29. Alienated State Form:  A tool for ruling the people—civilization's prison garb, prison cells, and prison van.
 
-30. Crisis of the United Nations: The UN Security Council has fallen into a state of structural paralysis and loss of legitimacy due to being hijacked by hegemony, locked by veto power, and eroded by double standards.
+30. Crisis of the United Nations: The UN Security Council has fallen into a state of structural paralysis and loss of legitimacy due to being hijacked by hegemony, locked by veto power, and eroded by double standards.  The structural deadlock lies in this: If the permanent members of the Security Council violate the order, who will restrain them ?
 
 31. Liro (Profit-Snare): (a)The general phenomenon of being lured into a trap by the pursuit of short-term gains, ultimately leading to self-entanglement and destruction; and (b) the specific geopolitical confrontation between the United States (Li) and Russia (Luo), two major military powers, which is dragging humanity into a trap and putting it at risk of destruction.
 
