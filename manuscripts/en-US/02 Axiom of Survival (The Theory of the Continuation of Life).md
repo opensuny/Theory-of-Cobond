@@ -91,7 +91,7 @@ As the population grew and competition for resources intensified, conflicts betw
 
 
 ## Chapter 7: Human's Crossroads: Choosing the Form of Civilization
-Today, human civilization stands at the threshold of an entirely new "environmental upheaval."
+Today, human civilization stands at the threshold of an entirely new "environmental upheaval".
 This time, the challenges are no longer glaciers or meteorites, but rather the technological monsters we have created with our own hands, the specter of nuclear weapons, the climate crisis, and an outdated, fragmented, and confrontational international political system.
 Is the system of nation-states—of which we are so proud, a model that served the European order after the Middle Ages and global reconstruction after World War II—approaching the limits of its effectiveness? When the pace at which it creates divisions exceeds the pace of integration, and when the cost of solving problems outweighs the benefits, will it—like the dinosaur skeletons of the past—become the subject of archaeological study for future generations? This is precisely why we need the Cobond.
 Not because we are weary of the old world, but because the axiom of survival warns us: if our system cannot evolve to address new threats, extinction will be our only fate. Cobond is a proactive structural leap that human civilization must attempt in order to pass this self-imposed test of survival.
