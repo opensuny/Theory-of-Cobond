@@ -6,9 +6,8 @@
 }
 
 .cover h1 {
-  font-size: 3rem;
-  padding-top:5rem;
-  font-weight: 900;
+  font-size: 4rem;  
+  font-weight: bold;
   -webkit-background-clip: text;
   color: #F7ba00;
     
@@ -24,8 +23,8 @@
 
 .cover .subhead{
 	font-size: 1.8rem;
-	font-weight:bold;
-	margin-top:2rem;
+	font-weight: bold;
+	margin-top: 2rem;
 }
 
 
@@ -33,7 +32,7 @@
 	font-family: 'Source Han Sans CN';
 	font-size: 1.6rem;
 	font-weight:bold;
-	margin-bottom:2rem;
+	
 }
 
 .cover .work{
@@ -47,6 +46,35 @@
 .cover .author{
 	font-weight:normal;
 	font-size: 1.25rem;
+}
+
+
+@media screen{
+.cover h1{
+	padding-top: 2rem;
+}
+
+.cover .author{
+	font-weight:normal;
+	font-size: 1.25rem;
 	padding-top:2rem;
-	padding-bottom:3rem;
+}
+}
+
+@media print {
+.cover{
+	height:100vh;
+}
+
+.cover h1{
+	padding-top: 6rem;
+}
+
+.cover .work{
+	margin-top: 6rem;
+}
+
+.cover .author{
+	padding-top:1rem;
+}
 }

@@ -1,3 +1,5 @@
+![story](assets/images/story.jpg)![arch](assets/images/arch.jpg)
+
 *Preprint Edition — Original Work in Chinese, 740,000 characters.*
 *We sincerely invite readers worldwide who share a deep concern for the peace and destiny of humanity to join us in refining this blueprint for the future of human civilization and in bringing it to more languages.*
 *For questions or suggestions, please contact: Zhang Xu(China): opensuny@yeah.net, Victor de Oliveira Liberale(Brazil): victor.liberale@unifesp.br*
@@ -9,16 +11,15 @@
 **The Cruel Reality**
 In 2026, the Russia-Ukraine war has entered its fifth year. Both sides have suffered enormous losses and continue to be drained, with peace still nowhere in sight. Everyone is talking about the situation, victory or defeat, ceasefires, and sanctions, but a fundamental problem remains: the existing peace proposals—victory for one side, a frozen front line, maintaining neutrality, or security guarantees from a third party—all have structural flaws and fail to resolve the root causes of the conflict. They merely redistribute the crumbs of a zero-sum pie and serve as a prelude to the next, even more intense conflict. This exposes the structural flaws in the current international security architecture—an insoluble stalemate and deadlock—unless we reconstruct the security architecture itself.
 
-Meanwhile, almost all countries around the world are rapidly expanding their military forces. Although this seemingly enhances their own security, it has instead caused other countries to experience deeper security anxiety, forcing them to also expand their military forces. This, in turn, has triggered a new round of global arms race — this is the direct manifestation of the current international security framework on the verge of collapse.
+Meanwhile, almost all countries around the world are rapidly expanding their military forces, Although this seemingly enhances their own security, it has instead caused other countries to experience deeper security anxiety, forcing them to also expand their military forces. This, in turn, has triggered a new round of global arms race. The risk of large-scale conflict and war is increasingly intensifying — this is the direct manifestation of the current international security framework is on the verge of collapse.
 
 War has plagued humanity for thousands of years, and the traditional zero-sum mindset is deeply ingrained. The current international security architecture paradigm is no longer sufficient to meet the universal security needs of humanity. Can we design a new paradigm of interstate relations from an engineering perspective, and eliminate war at the physical structure level? This new paradigm is called "Cobond" - that is, a security and destiny community formed by independent sovereign entities through the sharing of core functions.
 
 The core proposition is both radical and clear: War cannot be permanently ended through unilateral victory, sanctions, or ceasefire treaties. Only by redesigning the security architecture between countries can fundamental changes be achieved. The core architecture design is "Sovereign Independence + Military Interlocking". Member states retain their complete independent sovereignty, and there is a deep sharing and interlocking in the security domain. This design renders war meaningless through physical structural constraints.
 
-**Cobond: A New Form for Human Civilization.**
-Cobond: Coined from a Chinese term 共邦(Gòngbāng), pronunciation: /ˈkəʊbɒnd/ UK, /ˈkoʊbɑnd/ US.
-Cobond (General): A symbiotic relationship structure composed of multiple independent entities, where shared core functions lead to the formation of a secure and interdependent community of destiny.
-Cobond (International Politics): A symbiotic relationship formed by multiple independent entities, with shared interlocking in the security domain and independence in all other domains.
+**Cobond: A New Form for Human Civilization**
+Cobond (broad sense): A form of symbiotic relationship composed of multiple independent entities—that is, a community of security and shared destiny formed by shared core functions. It refers to a universal law governing the combination of all things in the universe, describing the combinatorial logic by which independent entities (such as particles, cells, living organisms, organizations, civilizations, and planets) interlock and connect through deep-seated rules to form a higher-level, stable system.
+Cobond (narrow sense: International Politics): A symbiotic relationship structure formed by multiple independent entities, with shared interlocking in the security domain and independence in all other domains.
 
 **Three Fundamental Axioms**
 ① Axiom of Survival: The primary purpose of life is survival and continuity.
@@ -34,7 +35,7 @@ Cobond (International Politics): A symbiotic relationship formed by multiple ind
 **Blueprint for Engineering**
 This book goes beyond theory; it outlines actionable blueprints for resolving core global conflicts of various types :
 ① Rus Cobond: An architecture designed for a century of peace between Russia and Ukraine featuring Military Interlocking between the two nations, allowing the people of both countries to live and thrive freely on this land.
-② Middle East Cobond: A peace architecture designed for Israel and the Arab world—internal unity of sovereignty and parallel governance in Israel, while externally coexisting with the Arab world through a "security anchor chain" and a "solid network of shared interests, thereby expanding mutual development boundary.
+② Middle East Cobond: A peace architecture designed for Israel and the Arab world—internal unity of sovereignty and parallel governance in Israel, while externally coexisting with the Arab world through a "security anchor chain" and a "solid network" of shared interests, thereby expanding mutual development boundaries.
 ③ Caucasus Cobond: A peace architecture designed for Armenia and Azerbaijan—transforming the "land of wars" into an "Eurasian land bridge" through military interlocking, enabling a region plagued by long-standing conflict to find a path to coexistence.
 ④ American Cobond: A transformation pathway designed to shift the United States from a "hegemonic dilemma" to a "civilizational engine"—focusing on diagnosing its dual structural dilemmas of internal student loan oppression and external hegemonic expansion.
 

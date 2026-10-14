@@ -63,7 +63,7 @@ $config = [
     'pageNumBegin' => intval($pageNumBegin),
     'paper' => $paper,
     'doc_dir' => realpath(__DIR__.'/../manuscripts/'.$lang),
-    'out_dir' => realpath(__DIR__). '/'.$lang,    
+    'out_dir' => __DIR__. '/'.$lang.'/output',    
     'cpdf' => realpath(__DIR__.'/depend/vendor/bin/cpdf.exe'),
 ];
 

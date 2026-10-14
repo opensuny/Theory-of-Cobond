@@ -1,6 +1,6 @@
 # Glossary
 
-1. Cobond: Coined from a Chinese term 共邦(Gòngbāng), pronunciation: /ˈkəʊbɒnd/ UK, /ˈkoʊbɑnd/ US.
+1. Cobond: Coined from a Chinese term 共邦(Gòngbāng).
    Cobond (broad sense): A symbiotic relationship structure composed of multiple independent entities, where shared core functions lead to the formation of a secure and interdependent community of destiny.
    Cobond (narrow sense: International Politics): A symbiotic relationship formed by multiple independent entities, with shared interlocking in the security domain and independence in all other domains.
 
@@ -14,98 +14,106 @@
 
 6. De-interlocking Warning: When a member state initiates the De-interlocking process, as the termination of the security binding relationship holds significant strategic importance, this action itself will serve as a structural signal, allowing other member states to anticipate that their military stance, strategic direction, or security policy may undergo major changes, and providing opportunities for diplomatic communication, risk assessment, and security adjustments.
 
-7. Society Integration (A Strong Network of Shared Interests): Build a social ecological network in which members are highly interconnected and interdependent, so that the prosperity and stability of any single member are deeply dependent on the healthy functioning of the entire community, making the preservation of the community the rational choice that best serves their respective interests.
+7. MAC (Mutually Assured Constraint)：As a new international security paradigm replacing MAD (Mutually Assured Destruction), it is founded on the principle of sovereign independence, with military interlocking as its core structural design and shared security interests as its guiding goal—rendering war between member states structurally meaningless. This ends the logic of passive peace under traditional deterrence through fear, shifting toward a philosophy of active peace grounded in shared security. It unifies negative peace and positive peace within a single architecture, providing an entirely new methodological and engineering framework for humanity to transcend the cycle of war and build a higher-order security community.
 
-8. Covenant of Civilization Perpetual Prosperity (Engine of a Shared Destiny): Establish a robust mechanism for the circulation and reinvestment of capital to infuse the journey with eternal momentum and drive the civilization toward enduring prosperity.
+8. Society Integration (A Strong Network of Shared Interests): Build a social ecological network in which members are highly interconnected and interdependent, so that the prosperity and stability of any single member are deeply dependent on the healthy functioning of the entire community, making the preservation of the community the rational choice that best serves their respective interests.
 
-9. Axiom of Survival (The Theory of Life Continuation): The primary purpose of life is survival and continuity.
+9. Covenant of Civilization Perpetual Prosperity (Engine of a Shared Destiny): Establish a robust mechanism for the circulation and reinvestment of capital to infuse the journey with eternal momentum and drive the civilization toward enduring prosperity.
 
-10. Form: The appearance or manifestation of a thing—used throughout this book to denote the structural patterns through which life, society, civilization, and the state express themselves.
+10. Axiom of Survival (The Theory of Life Continuation): The primary purpose of life is survival and continuity.
 
-11. Ideology: A relatively comprehensive and self-consistent system of ideas, beliefs, and value judgments used to interpret the world and guide action.
+11. Form: The appearance or manifestation of a thing—used throughout this book to denote the structural patterns through which life, society, civilization, and the state express themselves.
 
-12. Ideological Confrontation: A systematic, exclusive, and zero-sum intellectual and political struggle between different ideological systems over which set of ideas is correct, superior, and definitive.
+12. Relational Form: The mode of connection and interaction among independent entities; a key variable determining a system's overall effectiveness and evolutionary direction. It focuses on how independent entities connect and interact with one another.
 
-13. Civilization：The sum total of material and spiritual achievements created by humankind in the course of social development.
+13. Ideology: A relatively comprehensive and self-consistent system of ideas, beliefs, and value judgments used to interpret the world and guide action.
 
-14. State: A general term for the governance structure centered around the regime.
+14. Ideological Confrontation: A systematic, exclusive, and zero-sum intellectual and political struggle between different ideological systems over which set of ideas is correct, superior, and definitive.
 
-15. Citizen/National: A natural person with nationality, it is a neutral legal concept.
+15. Civilization：The sum total of material and spiritual achievements created by humankind in the course of social development.
 
-16. The People: In a just legal order, citizens who have not been deprived of their political rights; in an unjust legal order, those who belong to the community and have not betrayed the fundamental interests of the community, are political concepts with subjective value judgments. Minors belong to the people. Some theories regard values and political identity as vague criteria for defining the people (which cannot be quantified or objectively determined). However, minors, individuals with mental disorders, patients who are unconscious, politically indifferent people (those without the willingness or behavior to participate in politics), and isolated villages and tribes all lack political cognitive abilities. If defined by traditional standards, it naturally leads to the conclusion that these groups do not belong to the "people" - this is obviously an extremely absurd and terrifying cognition, which will cause serious logical loopholes and even extremely terrifying ethical disasters. When political theories attempt to define "the people" using political positions, they make the fundamental mistake of "overgeneralization" and "subjective overstepping" - imposing political rules on innocent lives. Therefore, this book does not define the scope of the "people" based on subjective ideological identification. Under a fair legal order, it is based on the fact that they have not been deprived of political rights; under an unfair legal order, it is based on their belonging to the community and whether they have betrayed the fundamental interests of the community; political indifference, ideological dissent, and criticism of politics do not constitute betrayal, and thus they cannot be deprived of their status as "people".
+16. State: A general term for the governance structure centered around the regime.
 
-17. Axiom of Form Serving (The Theory of Form Serving): Form serves the individual living being - The Essential Mission of Form.
+17. State Form：The appearance or manifestation of a state.
 
-18. Civilization Form serves individual human beings - The Fundamental Mission of Civilization.
+18. Citizen/National: A natural person with nationality, it is a neutral legal concept.
 
-19. State Form serves the people - The Fundamental Mission of State.
+19. The People: In a just legal order, citizens who have not been deprived of their political rights; in an unjust legal order, those who belong to the community and have not betrayed the fundamental interests of the community, are political concepts with subjective value judgments. Minors belong to the people. Some theories regard values and political identity as vague criteria for defining the people (which cannot be quantified or objectively determined). However, minors, individuals with mental disorders, patients who are unconscious, politically indifferent people (those without the willingness or behavior to participate in politics), and isolated villages and tribes all lack political cognitive abilities. If defined by traditional standards, it naturally leads to the conclusion that these groups do not belong to the "people" - this is obviously an extremely absurd and terrifying cognition, which will cause serious logical loopholes and even extremely terrifying ethical disasters. When political theories attempt to define "the people" using political positions, they make the fundamental mistake of "overgeneralization" and "subjective overstepping" - imposing political rules on innocent lives. Therefore, this book does not define the scope of the "people" based on subjective ideological identification. Under a fair legal order, it is based on the fact that they have not been deprived of political rights; under an unfair legal order, it is based on their belonging to the community and whether they have betrayed the fundamental interests of the community; political indifference, ideological dissent, and criticism of politics do not constitute betrayal, and thus they cannot be deprived of their status as "people".
 
-20. Axiom of Perfect Paradox (The Theory of Imperfect Evolution): Imperfection is the foundation of existence and the driving force behind evolution.
+20. Axiom of Form Serving (The Theory of Form Serving): Form serves the individual living being - The Essential Mission of Form.
 
-21. Form Optimization: The process of dynamically adjusting the Form based on service performance evaluations.
+21. Civilization Form serves individual human beings - The Fundamental Mission of Civilization.
 
-22. Form Alienation: The process and phenomena of form changes that lead to a decrease in service efficiency.
+22. State Form serves the people - The Fundamental Mission of State.
 
-23. State Form Optimization: To better serve the people, adjustments and changes are made to the state form.
+23. Axiom of Perfect Paradox (The Theory of Imperfect Evolution): Imperfection is the foundation of existence and the driving force behind evolution.
 
-24. State Form Alienation: The process and phenomena of the state form deviating from serving the people.
+24. Form Optimization: The process of dynamically adjusting the Form based on service performance evaluations.
 
-25. Optimized State Form: A tool to serve the people — Civilization's garb, dwellings and vehicles.
+25. Form Alienation: The process and phenomena of form changes that lead to a decrease in service efficiency.
 
-26. Alienated State Form:  A tool for Ruling the people—civilization's prison garb, prison cells, and prison cars.
+26. State Form Optimization: To better serve the people, adjustments and changes are made to the state form.
 
-27. Liro (Profit-Snare): A portmanteau of Li (利, profit) and Luo (罗, snare/trap), denoting both: (a) the general phenomenon of being lured into a trap by the pursuit of short-term gains, ultimately leading to self-entanglement and destruction; and (b) the specific geopolitical confrontation between the United States (Li) and Russia (Luo), two major military powers, which is dragging humanity into a trap and putting it at risk of destruction.
+27. State Form Alienation: The process and phenomena of the state form deviating from serving the people.
 
-28. Liroism: The adherence to Liro's ideas and behavioral patterns.
+28. Optimized State Form: A tool to serve the people — Civilization's garb, dwellings and vehicles.
 
-29. Black Hole Logic: An evolutionary model in which a system—be it a celestial body, a civilization, an economy, an organization, or an individual—by continuously devouring external resources, expanding its scale, and pursuing absolute centralized control, ultimately crosses its own critical threshold and irreversibly spirals toward collapse, isolation, and nothingness.
+29. Alienated State Form:  A tool for ruling the people—civilization's prison garb, prison cells, and prison van.
 
-30. Arms Black Hole: In geopolitical conflicts, when one side achieves military victory and ends the hot war, it fails to eliminate the root causes of confrontation. Instead, it forces the opposing side to continuously expand its military forces in a large scale for a long time. The victorious side, in order to maintain strategic security and not lose its geopolitical influence, is compelled to permanently and sustainably invest in extremely high levels of military equipment. It falls into a structural and continuous drain of national resources, trapped in a vicious cycle. Although it does not have a short-term impact on national security, it continuously consumes national resources, squeezes people's livelihoods, and locks the economic structure. This is "victory leading to chronic decline".
+30. Crisis of the United Nations: The UN Security Council has fallen into a state of structural paralysis and loss of legitimacy due to being hijacked by hegemony, locked by veto power, and eroded by double standards.  The structural deadlock lies in this: If the permanent members of the Security Council violate the order, who will restrain them ? This is also a direct manifestation of the collapse of the old international security framework.
 
-31. Expected Gains and Losses: Expected gains and losses influence decisions regarding war. This refers to the process by which the party initiating the war subjectively weighs the anticipated costs and benefits of the conflict before hostilities begin, thereby reaching a final decision. It is a key factor influencing the decision to initiate a war.
+31. Liro (Profit-Snare): (a)The general phenomenon of being lured into a trap by the pursuit of short-term gains, ultimately leading to self-entanglement and destruction; and (b) the specific geopolitical confrontation between the United States (Li) and Russia (Luo), two major military powers, which is dragging humanity into a trap and putting it at risk of destruction.
 
-32. Parasitic Criticism：In the process of thinking, creating, or collaborating, individuals or groups habitually intervene with the aim of criticism and nitpicking rather than constructive engagement. This behavioral pattern involves a severe imbalance in terms of responsibility, risk, and reward, and essentially constitutes a one-sided drain on the mental energy of creators and the public discourse environment.
+32. Liroism: The adherence to Liro's ideas and behavioral patterns.
 
-33. Distributed Civilization Architecture:  The form of the relationship that interlocks and connects independent entities to jointly bear the development of civilization, without a world government, distributed, compatible, and resilient architecture.
+33. Black Hole Logic: An evolutionary model in which a system—be it a celestial body, a civilization, an economy, an organization, or an individual—by continuously devouring external resources, expanding its scale, and pursuing absolute centralized control, ultimately crosses its own critical threshold and irreversibly spirals toward collapse, isolation, and nothingness.
 
-34. Philosophy: The discipline that examines and explores the essence of things. This is the concise definition of this discipline provided in the book.
+34. Arms Black Hole: In geopolitical conflicts, when one side achieves military victory and ends the hot war, it fails to eliminate the root causes of confrontation. Instead, it forces the opposing side to continuously expand its military forces in a large scale for a long time. The victorious side, in order to maintain strategic security and not lose its geopolitical influence, is compelled to permanently and sustainably invest in extremely high levels of military equipment. It falls into a structural and continuous drain of national resources, trapped in a vicious cycle. Although it does not have a short-term impact on national security, it continuously consumes national resources, squeezes people's livelihoods, and locks the economic structure. This is "victory leading to chronic decline".
 
-35. Human Civilization Engineering:  Using *The Theory of Life Continuation*, *The Theory of Form Serving*, and *The Theory of Imperfect Evolution* as the foundation of materials engineering, and taking *The Theory of Cobond* as the core system architecture, it employs systems theory and engineering methodologies to design and create a civilizational form that benefits all of humanity, thereby achieving a transformative leap in human civilization from conflict and opposition to symbiosis and prosperity.
+35. Expected Gains and Losses: Expected gains and losses influence decisions regarding war. This refers to the process by which the party initiating the war subjectively weighs the anticipated costs and benefits of the conflict before hostilities begin, thereby reaching a final decision. It is a key factor influencing the decision to initiate a war.
 
-36. Academy of Human Civilization Engineering（AHCE）：An educational and research institution focused on "Human Civilization Engineering" established in conflict-affected regions where the Cobond architecture and spirit have already been successfully implemented.
+36. Parasitic Criticism：In the process of thinking, creating, or collaborating, individuals or groups habitually intervene with the aim of criticism and nitpicking rather than constructive engagement. This behavioral pattern involves a severe imbalance in terms of responsibility, risk, and reward, and essentially constitutes a one-sided drain on the mental energy of creators and the public discourse environment.
 
-37. Military of Human Civilization Engineering: An emerging interdisciplinary strategic field that views military power as a critical "tool of civilizational engineering" that can be strategically planned and deployed. At its core lies the application of engineering's systems thinking and design methodologies to reconfigure military power, elevating its core mission from the traditional goals of "winning wars between nations" and "defending sovereignty" to "safeguarding the fundamental conditions for the survival and development of human civilization" and "managing internal and external risks at the civilizational level."
+37. Distributed Civilization Architecture:  The form of the relationship that interlocks and connects independent entities to jointly bear the development of civilization, without a world government, distributed, compatible, and resilient architecture.
 
-38. Sociology of Human Civilization Engineering: A proactive design discipline that applies engineering thinking to the construction and optimization of human super-large-scale social systems. It is responsible for "social suturing" at the fault lines of civilization, as well as for "social healthcare" and "system upgrades" within civilizational communities.
+38. Philosophy: The discipline that examines and explores the essence of things. This is the concise definition of this discipline provided in the book.
 
-39. Economics of Human Civilization Engineering:  A foundational discipline that reconstructs economic theory and practice from the ultimate perspective of the overall survival and evolution of human civilization. By applying the systematic design thinking of engineering, it diagnoses and resolves the deep-seated ills of "Liroism"—which lead to resource misallocation, cyclical crises, and the unsustainability of civilization—within current economic models. It designs and establishes institutional frameworks and resource allocation mechanisms capable of ensuring that resources serve the goals of civilization's overall survival and prosperity in a sustainable, stable, and equitable manner over millennia or even longer timeframes.
+39. Human Civilization Engineering:  Using the Axiom of Survival, the Axiom of Form Serving, and the Axiom of Perfect Paradox as its theoretical foundation, and taking *The Theory of Cobond* as the core system architecture, it employs systems theory and engineering methodologies to design and create a civilizational form that benefits all of humanity, thereby achieving a transformative leap in human civilization from conflict and opposition to symbiosis and prosperity.
 
-40. Finance of Human Civilization Engineering: A discipline of financial engineering and institutional design that studies how to hedge against the risks of short-sightedness in civilizational systems and ensure their long-term survival through institutionalized capital accumulation and strategic allocation. It is founded on the following understanding: a civilization is like a living organism, and its greatest systemic risk does not stem from external shocks, but from an internal, cyclical tendency toward "Liroism"—that is, overdrawing on the future for short-term gains. The core mission of this discipline is to design and maintain an institutionalized immune system known as the "Civilization Perpetual Prosperity Fund" , transforming it into a stabilizer and regenerative reservoir that enables civilization to resist its "Liro" self-destructive tendencies.
+40. Academy of Human Civilization Engineering（AHCE）：An educational and research institution focused on "Human Civilization Engineering" established in conflict-affected regions where the Cobond architecture and spirit have already been successfully implemented.
 
-41. Shield of Freedom：The right of members to withdraw from Cobond without conditions.
+41. Military of Human Civilization Engineering: An emerging interdisciplinary strategic field that views military power as a critical "tool of civilizational engineering" that can be strategically planned and deployed. At its core lies the application of engineering's systems thinking and design methodologies to reconfigure military power, elevating its core mission from the traditional goals of "winning wars between nations" and "defending sovereignty" to "safeguarding the fundamental conditions for the survival and development of human civilization" and "managing internal and external risks at the civilizational level."
 
-42. Rus Cobond:  The Cobond comprising Russia and Ukraine (later including Belarus).
+42. Sociology of Human Civilization Engineering: A proactive design discipline that applies engineering thinking to the construction and optimization of human super-large-scale social systems. It is responsible for "social suturing" at the fault lines of civilization, as well as for "social healthcare" and "system upgrades" within civilizational communities.
 
-43. European Cobond: The Cobond comprising European nations.
+43. Economics of Human Civilization Engineering:  A foundational discipline that reconstructs economic theory and practice from the ultimate perspective of the overall survival and evolution of human civilization. By applying the systematic design thinking of engineering, it diagnoses and resolves the deep-seated ills of "Liroism"—which lead to resource misallocation, cyclical crises, and the unsustainability of civilization—within current economic models. It designs and establishes institutional frameworks and resource allocation mechanisms capable of ensuring that resources serve the goals of civilization's overall survival and prosperity in a sustainable, stable, and equitable manner over millennia or even longer timeframes.
 
-44. Middle East Cobond: The Cobond comprising Middle Eastern countries (including Israel and other Arab nations).
+44. Public Finance of Human Civilization Engineering: A discipline of financial engineering and institutional design that studies how to hedge against the risks of short-sightedness in civilizational systems and ensure their long-term survival through institutionalized capital accumulation and strategic allocation. It is founded on the following understanding: a civilization is like a living organism, and its greatest systemic risk does not stem from external shocks, but from an internal, cyclical tendency toward "Liroism"—that is, overdrawing on the future for short-term gains. The core mission of this discipline is to design and maintain an institutionalized immune system known as the "Civilization Perpetual Prosperity Fund" , transforming it into a stabilizer and regenerative reservoir that enables civilization to resist its "Liro" self-destructive tendencies.
 
-45. Caucasus Cobond: The Cobond comprising Armenia and Azerbaijan (and later including Georgia and other countries).
+45. Shield of Freedom：The right of members to withdraw from Cobond without conditions.
 
-46. American Cobond: The new United States Cobond dedicated to serving the American people and contributing to the world.
+46. Rus Cobond:  The Cobond comprising Russia and Ukraine (later including Belarus).
 
-47. Earth Cobond：The community of shared security and destiny comprising all nations of the world.
+47. European Cobond: The Cobond comprising European nations.
 
-48. Earth Cobond Force：The military force composed of personnel from all nations worldwide; it cannot attack any member state.
+48. Middle East Cobond: The Cobond comprising Middle Eastern countries (including Israel and other Arab nations).
 
-49. Cosmic Cobond：The community of shared security and destiny comprising all planetary civilizations in the universe.
+49. Caucasus Cobond: The Cobond comprising Armenia and Azerbaijan (and later including Georgia and other countries).
 
-50. Cosmic Cobond Force：The military force composed of mixed units from all civilizations across the universe; it cannot attack any of its member planets.
+50. American Cobond: The new United States Cobond dedicated to serving the American people and contributing to the world.
 
-51. The Paradox of Nuclear Weapons: Nuclear weapons function as tools of political and strategic deterrence rather than as military weapons; they are political props disguised as weapons. In conventional warfare, their sole purpose lies in never being used. Once deployed as actual weapons, they immediately lose all deterrent value, and the strategic logic underpinning them collapses.
+51. Earth Cobond：The community of shared security and destiny comprising all nations of the world.
 
-52. The Twilight of the Aircraft Carrier Era: Denotes the onset of the decline of U.S. unipolar hegemony and the advent of the era of unmanned warfare, precipitated by the United States' defeat in the 2026 war with Iran.
+52. Earth Cobond Force：The military force composed of personnel from all nations worldwide; it cannot attack any member state.
 
-53. The Paradox of Refrigerator: The original purpose of a refrigerator is to keep food fresh, but in practice, it often becomes a tool that causes food to spoil.
+53. Cosmic Cobond：The community of shared security and destiny comprising all planetary civilizations in the universe.
 
-54. Zero-sum Game: In such activities, one party's gain necessarily means the other party's loss, and the sum of both parties' gains and losses is always zero. This is commonly seen in gambling, market competition, and certain types of political or military conflicts.
+54. Cosmic Cobond Force：The military force composed of mixed units from all civilizations across the universe; it cannot attack any of its member planets.
+
+55. Nuclear Weapons Paradox: Nuclear weapons function as tools of political and strategic deterrence rather than as military weapons; they are political props disguised as weapons. In conventional warfare, their sole purpose lies in never being used. Once deployed as actual weapons, they immediately lose all deterrent value, and the strategic logic underpinning them collapses.
+
+56. Twilight of Aircraft Carrier Era: Denotes the onset of the decline of U.S. unipolar hegemony and the advent of the era of unmanned warfare, precipitated by the United States' defeat in the 2026 war with Iran.
+
+57. Refrigerator Paradox: The original purpose of a refrigerator is to keep food fresh, but in practice, it often becomes a tool that turns food into expired and spoiled waste.
+
+58. Zero-sum Game: In such activities, one party's gain necessarily means the other party's loss, and the sum of both parties' gains and losses is always zero. This is commonly seen in gambling, market competition, and certain types of political or military conflicts.
