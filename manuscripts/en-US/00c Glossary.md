@@ -18,7 +18,7 @@
 
 8. Society Integration (A Strong Network of Shared Interests): Build a social ecological network in which members are highly interconnected and interdependent, so that the prosperity and stability of any single member are deeply dependent on the healthy functioning of the entire community, making the preservation of the community the rational choice that best serves their respective interests.
 
-9. Covenant of Civilization Perpetual Prosperity (Engine of a Shared Destiny): Establish a robust mechanism for the circulation and reinvestment of capital to infuse the journey with eternal momentum and drive the civilization toward enduring prosperity.
+9. Covenant for Civilization Perpetual Prosperity (Engine of a Shared Destiny): Establish a robust mechanism for the circulation and reinvestment of capital to infuse the journey with eternal momentum and drive the civilization toward enduring prosperity.
 
 10. Axiom of Survival (The Theory of Life Continuation): The primary purpose of life is survival and continuity.
 
@@ -68,7 +68,7 @@
 
 33. Black Hole Logic: An evolutionary model in which a system—be it a celestial body, a civilization, an economy, an organization, or an individual—by continuously devouring external resources, expanding its scale, and pursuing absolute centralized control, ultimately crosses its own critical threshold and irreversibly spirals toward collapse, isolation, and nothingness.
 
-34. Arms Black Hole: In geopolitical conflicts, when one side achieves military victory and ends the hot war, it fails to eliminate the root causes of confrontation. Instead, it forces the opposing side to continuously expand its military forces in a large scale for a long time. The victorious side, in order to maintain strategic security and not lose its geopolitical influence, is compelled to permanently and sustainably invest in extremely high levels of military equipment. It falls into a structural and continuous drain of national resources, trapped in a vicious cycle. Although it does not have a short-term impact on national security, it continuously consumes national resources, squeezes people's livelihoods, and locks the economic structure. This is "victory leading to chronic decline".
+34. Arms Black Hole: After the cessation of the military hot war, the root causes of confrontation were not eliminated, forcing both sides to engage in long-term and large-scale military armament standoffs. To maintain strategic security and not lose geopolitical dominance, they were forced to permanently maintain extremely high levels of military expenditure, falling into a structural and continuous drain of national resources trap. Although it does not have a short-term impact on national security, it continuously consumes national resources, squeezes the livelihood economy, and seriously affects social development.
 
 35. Expected Gains and Losses: Expected gains and losses influence decisions regarding war. This refers to the process by which the party initiating the war subjectively weighs the anticipated costs and benefits of the conflict before hostilities begin, thereby reaching a final decision. It is a key factor influencing the decision to initiate a war.
 
