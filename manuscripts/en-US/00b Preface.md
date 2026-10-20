@@ -13,9 +13,23 @@ In 2026, the Russia-Ukraine war has entered its fifth year. Both sides have suff
 
 Meanwhile, almost all countries around the world are rapidly expanding their military forces, Although this seemingly enhances their own security, it has instead caused other countries to experience deeper security anxiety, forcing them to also expand their military forces. This, in turn, has triggered a new round of global arms race. The risk of large-scale conflict and war is increasingly intensifying — this is the direct manifestation of the current international security framework is on the verge of collapse.
 
-War has plagued humanity for thousands of years, and the traditional zero-sum mindset is deeply ingrained. The current international security architecture paradigm is no longer sufficient to meet the universal security needs of humanity. Can we design a new paradigm of interstate relations from an engineering perspective, and eliminate war at the physical structure level? This new paradigm is called "Cobond" - that is, a security and destiny community formed by independent sovereign entities through the sharing of core functions.
+The anarchic nature of international relations is the realistic starting point for the theoretical framework of this book. Humanity has thus far devised three models of international order, but all have either failed or are on the verge of collapse:
+①Moral Appeal (Liberalism and Idealism) — Speed Limit Sign
+Relying on universal morality, international conventions, and ethical condemnation to urge nations to restrain from aggression. From Kant’s Perpetual Peace to the UN Charter, humanity once pinned its hopes on rationality, international law, and democratic institutions to curb war. However, history has proven that when confronted with the brutal collision of great power politics, it fails completely.
 
-The core proposition is both radical and clear: War cannot be permanently ended through unilateral victory, sanctions, or ceasefire treaties. Only by redesigning the security architecture between countries can fundamental changes be achieved. The core architecture design is "Sovereign Independence + Military Interlocking". Member states retain their complete independent sovereignty, and there is a deep sharing and interlocking in the security domain. This design renders war meaningless through physical structural constraints.
+②Mutually Assured Destruction (Realism, MAD) — Spike Strip
+Relying on superior military forces and the symmetrical threat of weapons of mass destruction to establish a balance of terror, thereby deterring direct war between major powers. However, its side effects are devastating: it leads to an endless arms race and an "Arms Black Hole," forcing nations to permanently drain their national strength. Ultimately, this squeezes the livelihood economy and triggers widespread security anxiety for humanity.
+
+③World Government (Centralized Hegemony and Empire) — Steel-and-Concrete Barrier
+Historical empires, the modern Soviet Union, and the contemporary US-led unipolar order all attempted to rule the world through centralized power. Ultimately, they all met the same fate: oppression, disaster, collapse, and implosion.
+
+War has plagued humanity for millennia, and traditional zero-sum thinking is deeply entrenched. The current international security paradigm can no longer meet humanity's universal need for security. Is humanity doomed to be repeatedly imprisoned and tormented within the vicious cycle of 'weakness, mutual annihilation, and totalitarian rule'?
+
+Can we design a new paradigm of interstate relations from an engineering perspective, eliminating war at the physical structural level?
+
+This new paradigm is called "Cobond"—a community of security and shared destiny formed by independent sovereign entities through the sharing of core functions. It is the fourth security paradigm proposed in this book:
+④Mutually Assured Constraint (MAC) — Speed Bump
+Its core proposition is both radical and clear: war cannot be permanently ended through unilateral victory, sanctions, or ceasefire treaties. Fundamental change can only be achieved by a brand-new structural redesign of the security relations between nations. Its core architecture is "Sovereign Independence + Military Interlocking": Member states retain complete independent sovereignty while deeply sharing and interlocking in the security domain—rendering war structurally meaningless.
 
 **Cobond: A New Form for Human Civilization**
 Cobond (broad sense): A form of symbiotic relationship composed of multiple independent entities—that is, a community of security and shared destiny formed by shared core functions. It refers to a universal law governing the combination of all things in the universe, describing the combinatorial logic by which independent entities (such as particles, cells, living organisms, organizations, civilizations, and planets) interlock and connect through deep-seated rules to form a higher-level, stable system.
