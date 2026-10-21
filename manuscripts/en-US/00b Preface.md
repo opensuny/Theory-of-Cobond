@@ -13,23 +13,19 @@ In 2026, the Russia-Ukraine war has entered its fifth year. Both sides have suff
 
 Meanwhile, almost all countries around the world are rapidly expanding their military forces, Although this seemingly enhances their own security, it has instead caused other countries to experience deeper security anxiety, forcing them to also expand their military forces. This, in turn, has triggered a new round of global arms race. The risk of large-scale conflict and war is increasingly intensifying — this is the direct manifestation of the current international security framework is on the verge of collapse.
 
-The anarchic nature of international relations is the realistic starting point for the theoretical framework of this book. Humanity has thus far devised three models of international order, but all have either failed or are on the verge of collapse:
-①Moral Appeal (Liberalism and Idealism) — Speed Limit Sign
-Relying on universal morality, international conventions, and ethical condemnation to urge nations to restrain from aggression. From Kant’s Perpetual Peace to the UN Charter, humanity once pinned its hopes on rationality, international law, and democratic institutions to curb war. However, history has proven that when confronted with the brutal collision of great power politics, it fails completely.
+The international relations are in a state of anarchy and prioritize interests. This is the realistic starting point for the theoretical development of this book. Humans have attempted three international order models so far, but all have failed or are on the verge of collapse:
+①Moral appeal (liberalism and idealism) - Speed limit sign
+Relying on universal morality, international conventions, and ethical condemnation, it calls on countries to restrain aggression, from Kant's "Perpetual Peace Theory" to the UN Charter. Humans once hoped that reason, international law, and democratic systems could curb wars. But history has proved that when facing the brutal assault of power, it completely failed.
+②Mutual assured destruction (realism, Mutually Assured Destruction, MAD) - Armored car racing and collision
+Relying on superior military power and equal threats from destructive weapons, it forms a terrifying balance to curb direct wars between major powers. However, the side effects are extremely brutal: it leads to an endless military competition and arms black hole, forcing countries to continuously consume national resources, devour human wealth, destroy populations, and trigger widespread security anxiety and survival crises among humans.
+③World government (centralized hegemony and empire) - Steel and concrete gate
+Empires in history, the Soviet Union in the modern era, and the unipolar order dominated by the United States in the contemporary era, all attempted to rule the world with centralized power. Eventually, they all ended up in the same outcome: oppression, disasters, collapse, and disintegration.
 
-②Mutually Assured Destruction (Realism, MAD) — Spike Strip
-Relying on superior military forces and the symmetrical threat of weapons of mass destruction to establish a balance of terror, thereby deterring direct war between major powers. However, its side effects are devastating: it leads to an endless arms race and an "Arms Black Hole," forcing nations to permanently drain their national strength. Ultimately, this squeezes the livelihood economy and triggers widespread security anxiety for humanity.
+War has plagued humanity for thousands of years. Moral appeal and international treaties are like empty words. Zero-sum games are intensifying. Must humans be repeatedly imprisoned and tortured in the cycle of "weakness, mutual annihilation, and totalitarian rule"?
 
-③World Government (Centralized Hegemony and Empire) — Steel-and-Concrete Barrier
-Historical empires, the modern Soviet Union, and the contemporary US-led unipolar order all attempted to rule the world through centralized power. Ultimately, they all met the same fate: oppression, disaster, collapse, and implosion.
-
-War has plagued humanity for millennia, and traditional zero-sum thinking is deeply entrenched. The current international security paradigm can no longer meet humanity's universal need for security. Is humanity doomed to be repeatedly imprisoned and tormented within the vicious cycle of 'weakness, mutual annihilation, and totalitarian rule'?
-
-Can we design a new paradigm of interstate relations from an engineering perspective, eliminating war at the physical structural level?
-
-This new paradigm is called "Cobond"—a community of security and shared destiny formed by independent sovereign entities through the sharing of core functions. It is the fourth security paradigm proposed in this book:
-④Mutually Assured Constraint (MAC) — Speed Bump
-Its core proposition is both radical and clear: war cannot be permanently ended through unilateral victory, sanctions, or ceasefire treaties. Fundamental change can only be achieved by a brand-new structural redesign of the security relations between nations. Its core architecture is "Sovereign Independence + Military Interlocking": Member states retain complete independent sovereignty while deeply sharing and interlocking in the security domain—rendering war structurally meaningless.
+No, this book designs a new type of inter-state relationship form from an engineering perspective, called "Cobond" - that is, a security and destiny community composed of independent sovereign entities through the sharing of core functions. This is the fourth new security paradigm:
+④Mutual assured constraint (Mutually Assured Constraint, MAC) - Speed Bump
+Its core proposition is both radical and clear: War cannot be permanently ended through unilateral victory, sanctions, or ceasefire treaties. Only by designing a completely new structural design for the security relationship between countries can fundamental changes be achieved. Its core framework is "sovereign independence + military interlocking": Member states retain complete independent sovereignty and deeply share interlocking in the security field. From a physical structure perspective, war loses its meaning. The deceleration belt does not prohibit passage, but the cost of a high-speed collision is far higher than orderly passage - violent jolting, direction loss, vehicle damage.
 
 **Cobond: A New Form for Human Civilization**
 Cobond (broad sense): A form of symbiotic relationship composed of multiple independent entities—that is, a community of security and shared destiny formed by shared core functions. It refers to a universal law governing the combination of all things in the universe, describing the combinatorial logic by which independent entities (such as particles, cells, living organisms, organizations, civilizations, and planets) interlock and connect through deep-seated rules to form a higher-level, stable system.
